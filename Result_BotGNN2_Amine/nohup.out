@@ -1,0 +1,2644 @@
+Working on split: 1
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6916236877441406	accuracy:0.5294117647058824
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6935838811537799	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6955471038818359	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.6958899217493394	accuracy:0.5294117647058824
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6996171614703011	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6955763872931985	accuracy:0.4411764705882353
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.695748441359576	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6952966802260455	accuracy:0.5
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6942150452557732	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6976871490478516	accuracy:0.4117647058823529
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6941835740033317	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6944311927346623	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6943128810209387	accuracy:0.5
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6963591856115005	accuracy:0.45588235294117646
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.694970916299259	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6949607063742245	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.7060886831844554	accuracy:0.39705882352941174
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6948882271261776	accuracy:0.4411764705882353
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6974572574391085	accuracy:0.39705882352941174
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6981681374942555	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.702177552615895	accuracy:0.4117647058823529
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6993770599365234	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.7008692797492532	accuracy:0.38235294117647056
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.698300698224236	accuracy:0.36764705882352944
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6957717222325942	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6953890183392692	accuracy:0.5
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.6983003055348116	accuracy:0.38235294117647056
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6983185936422909	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.702974936541389	accuracy:0.39705882352941174
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6979675853953642	accuracy:0.39705882352941174
+Best hyperparameters: [nhid: 8, batch_size:16, lr:0.0001])
+Training Starts.
+Validation loss:0.7606530470006606	accuracy:0.47058823529411764
+Model saved at epoch0
+Validation loss:0.7595748340382296	accuracy:0.47058823529411764
+Model saved at epoch1
+Validation loss:0.7583788703469669	accuracy:0.47058823529411764
+Model saved at epoch2
+Validation loss:0.7573883954216453	accuracy:0.47058823529411764
+Model saved at epoch3
+Validation loss:0.7564268673167509	accuracy:0.47058823529411764
+Model saved at epoch4
+Validation loss:0.7554758296293371	accuracy:0.47058823529411764
+Model saved at epoch5
+Validation loss:0.7543117859784294	accuracy:0.47058823529411764
+Model saved at epoch6
+Validation loss:0.753568032208611	accuracy:0.47058823529411764
+Model saved at epoch7
+Validation loss:0.7526247361127067	accuracy:0.47058823529411764
+Model saved at epoch8
+Validation loss:0.7519046559053308	accuracy:0.47058823529411764
+Model saved at epoch9
+Validation loss:0.7510290145874023	accuracy:0.47058823529411764
+Model saved at epoch10
+Validation loss:0.7502688800587374	accuracy:0.47058823529411764
+Model saved at epoch11
+Validation loss:0.749534102047191	accuracy:0.47058823529411764
+Model saved at epoch12
+Validation loss:0.7491829816032859	accuracy:0.47058823529411764
+Model saved at epoch13
+Validation loss:0.748602923224954	accuracy:0.47058823529411764
+Model saved at epoch14
+Validation loss:0.7482132070204791	accuracy:0.47058823529411764
+Model saved at epoch15
+Validation loss:0.7478144028607536	accuracy:0.47058823529411764
+Model saved at epoch16
+Validation loss:0.747379415175494	accuracy:0.47058823529411764
+Model saved at epoch17
+Validation loss:0.746954413021312	accuracy:0.47058823529411764
+Model saved at epoch18
+Validation loss:0.7465995339786305	accuracy:0.47058823529411764
+Model saved at epoch19
+Validation loss:0.7462879629696116	accuracy:0.47058823529411764
+Model saved at epoch20
+Validation loss:0.7459347668816062	accuracy:0.47058823529411764
+Model saved at epoch21
+Validation loss:0.7455513898064109	accuracy:0.47058823529411764
+Model saved at epoch22
+Validation loss:0.7457792618695427	accuracy:0.47058823529411764
+Validation loss:0.7453971189611098	accuracy:0.47058823529411764
+Model saved at epoch24
+Validation loss:0.7451139898861155	accuracy:0.47058823529411764
+Model saved at epoch25
+Validation loss:0.7448681663064396	accuracy:0.47058823529411764
+Model saved at epoch26
+Validation loss:0.7446416406070485	accuracy:0.47058823529411764
+Model saved at epoch27
+Validation loss:0.7443467308493221	accuracy:0.47058823529411764
+Model saved at epoch28
+Validation loss:0.7440529430613798	accuracy:0.47058823529411764
+Model saved at epoch29
+Validation loss:0.7437791263355928	accuracy:0.47058823529411764
+Model saved at epoch30
+Validation loss:0.743328711565803	accuracy:0.47058823529411764
+Model saved at epoch31
+Validation loss:0.743072229273179	accuracy:0.47058823529411764
+Model saved at epoch32
+Validation loss:0.74281047372257	accuracy:0.47058823529411764
+Model saved at epoch33
+Validation loss:0.7425208933213178	accuracy:0.47058823529411764
+Model saved at epoch34
+Validation loss:0.7422308641321519	accuracy:0.47058823529411764
+Model saved at epoch35
+Validation loss:0.7419231078203987	accuracy:0.47058823529411764
+Model saved at epoch36
+Validation loss:0.741660005906049	accuracy:0.47058823529411764
+Model saved at epoch37
+Validation loss:0.741465175853056	accuracy:0.47058823529411764
+Model saved at epoch38
+Validation loss:0.7412727580350988	accuracy:0.47058823529411764
+Model saved at epoch39
+Validation loss:0.7413579155417049	accuracy:0.47058823529411764
+Validation loss:0.7412146960987764	accuracy:0.47058823529411764
+Model saved at epoch41
+Validation loss:0.7410474665024701	accuracy:0.47058823529411764
+Model saved at epoch42
+Validation loss:0.7407650106093463	accuracy:0.47058823529411764
+Model saved at epoch43
+Validation loss:0.7403797261855182	accuracy:0.47058823529411764
+Model saved at epoch44
+Validation loss:0.7399614558500403	accuracy:0.47058823529411764
+Model saved at epoch45
+Validation loss:0.7392837300020105	accuracy:0.47058823529411764
+Model saved at epoch46
+Validation loss:0.7389554977416992	accuracy:0.47058823529411764
+Model saved at epoch47
+Validation loss:0.73860045040355	accuracy:0.47058823529411764
+Model saved at epoch48
+Validation loss:0.7382749669692096	accuracy:0.47058823529411764
+Model saved at epoch49
+Validation loss:0.7376743765438304	accuracy:0.47058823529411764
+Model saved at epoch50
+Validation loss:0.736990816452924	accuracy:0.47058823529411764
+Model saved at epoch51
+Validation loss:0.7359645506914925	accuracy:0.47058823529411764
+Model saved at epoch52
+Validation loss:0.7343941856833065	accuracy:0.47058823529411764
+Model saved at epoch53
+Validation loss:0.7332422593060661	accuracy:0.47058823529411764
+Model saved at epoch54
+Validation loss:0.7319831287159639	accuracy:0.47058823529411764
+Model saved at epoch55
+Validation loss:0.7304916381835938	accuracy:0.47058823529411764
+Model saved at epoch56
+Validation loss:0.7290264578426585	accuracy:0.47058823529411764
+Model saved at epoch57
+Validation loss:0.727241179522346	accuracy:0.47058823529411764
+Model saved at epoch58
+Validation loss:0.7249070896821863	accuracy:0.47058823529411764
+Model saved at epoch59
+Validation loss:0.722185864168055	accuracy:0.47058823529411764
+Model saved at epoch60
+Validation loss:0.719668051775764	accuracy:0.47058823529411764
+Model saved at epoch61
+Validation loss:0.7188172620885512	accuracy:0.47058823529411764
+Model saved at epoch62
+Validation loss:0.7179877898272347	accuracy:0.47058823529411764
+Model saved at epoch63
+Validation loss:0.7172173331765568	accuracy:0.47058823529411764
+Model saved at epoch64
+Validation loss:0.7162649491254021	accuracy:0.47058823529411764
+Model saved at epoch65
+Validation loss:0.7155677571016199	accuracy:0.47058823529411764
+Model saved at epoch66
+Validation loss:0.7145438474767348	accuracy:0.47058823529411764
+Model saved at epoch67
+Validation loss:0.7139844333424288	accuracy:0.47058823529411764
+Model saved at epoch68
+Validation loss:0.712980775272145	accuracy:0.47058823529411764
+Model saved at epoch69
+Validation loss:0.7124038023107192	accuracy:0.47058823529411764
+Model saved at epoch70
+Validation loss:0.7114884993609261	accuracy:0.47058823529411764
+Model saved at epoch71
+Validation loss:0.7104693581076229	accuracy:0.47058823529411764
+Model saved at epoch72
+Validation loss:0.709621036753935	accuracy:0.47058823529411764
+Model saved at epoch73
+Validation loss:0.7087101094862994	accuracy:0.47058823529411764
+Model saved at epoch74
+Validation loss:0.7076380673576804	accuracy:0.47058823529411764
+Model saved at epoch75
+Validation loss:0.7068174025591683	accuracy:0.47058823529411764
+Model saved at epoch76
+Validation loss:0.7059868083280676	accuracy:0.47058823529411764
+Model saved at epoch77
+Validation loss:0.7056508905747357	accuracy:0.47058823529411764
+Model saved at epoch78
+Validation loss:0.7049818599925322	accuracy:0.47058823529411764
+Model saved at epoch79
+Validation loss:0.7042932510375977	accuracy:0.47058823529411764
+Model saved at epoch80
+Validation loss:0.7035851198084214	accuracy:0.47058823529411764
+Model saved at epoch81
+Validation loss:0.7029209136962891	accuracy:0.47058823529411764
+Model saved at epoch82
+Validation loss:0.7025888667387121	accuracy:0.47058823529411764
+Model saved at epoch83
+Validation loss:0.7021275127635282	accuracy:0.47058823529411764
+Model saved at epoch84
+Validation loss:0.7019495683557847	accuracy:0.47058823529411764
+Model saved at epoch85
+Validation loss:0.701761806712431	accuracy:0.47058823529411764
+Model saved at epoch86
+Validation loss:0.7011876947739545	accuracy:0.47058823529411764
+Model saved at epoch87
+Validation loss:0.7010634366203757	accuracy:0.47058823529411764
+Model saved at epoch88
+Validation loss:0.7008298425113454	accuracy:0.47058823529411764
+Model saved at epoch89
+Validation loss:0.7006454467773438	accuracy:0.47058823529411764
+Model saved at epoch90
+Validation loss:0.7004874173332664	accuracy:0.47058823529411764
+Model saved at epoch91
+Validation loss:0.7003153632668888	accuracy:0.47058823529411764
+Model saved at epoch92
+Validation loss:0.7002542159136604	accuracy:0.47058823529411764
+Model saved at epoch93
+Validation loss:0.6999232348273782	accuracy:0.47058823529411764
+Model saved at epoch94
+Validation loss:0.6996602451100069	accuracy:0.47058823529411764
+Model saved at epoch95
+Validation loss:0.6996148053337546	accuracy:0.47058823529411764
+Model saved at epoch96
+Validation loss:0.6996169931748334	accuracy:0.47058823529411764
+Validation loss:0.6995714973000919	accuracy:0.47058823529411764
+Model saved at epoch98
+Validation loss:0.6995143329395968	accuracy:0.47058823529411764
+Model saved at epoch99
+Validation loss:0.6993795843685374	accuracy:0.47058823529411764
+Model saved at epoch100
+Validation loss:0.6991569294649012	accuracy:0.47058823529411764
+Model saved at epoch101
+Validation loss:0.6989169962265912	accuracy:0.47058823529411764
+Model saved at epoch102
+Validation loss:0.6987374249626609	accuracy:0.47058823529411764
+Model saved at epoch103
+Validation loss:0.6986006007475012	accuracy:0.47058823529411764
+Model saved at epoch104
+Validation loss:0.6983531503116384	accuracy:0.47058823529411764
+Model saved at epoch105
+Validation loss:0.6981807596543256	accuracy:0.47058823529411764
+Model saved at epoch106
+Validation loss:0.6981443517348346	accuracy:0.47058823529411764
+Model saved at epoch107
+Validation loss:0.6980926289277918	accuracy:0.47058823529411764
+Model saved at epoch108
+Validation loss:0.6980015810798196	accuracy:0.47058823529411764
+Model saved at epoch109
+Validation loss:0.6980748457067153	accuracy:0.47058823529411764
+Validation loss:0.6972978255328011	accuracy:0.47058823529411764
+Model saved at epoch111
+Validation loss:0.6972162022310144	accuracy:0.47058823529411764
+Model saved at epoch112
+Validation loss:0.6971677331363454	accuracy:0.47058823529411764
+Model saved at epoch113
+Validation loss:0.6970297308529124	accuracy:0.47058823529411764
+Model saved at epoch114
+Validation loss:0.6969146728515625	accuracy:0.47058823529411764
+Model saved at epoch115
+Validation loss:0.696891560274012	accuracy:0.47058823529411764
+Model saved at epoch116
+Validation loss:0.6967357186710134	accuracy:0.47058823529411764
+Model saved at epoch117
+Validation loss:0.6964993757360122	accuracy:0.47058823529411764
+Model saved at epoch118
+Validation loss:0.6969766055836397	accuracy:0.47058823529411764
+Validation loss:0.6966706444235409	accuracy:0.47058823529411764
+Validation loss:0.6963815689086914	accuracy:0.47058823529411764
+Model saved at epoch121
+Validation loss:0.6960748223697438	accuracy:0.47058823529411764
+Model saved at epoch122
+Validation loss:0.6957217384787167	accuracy:0.47058823529411764
+Model saved at epoch123
+Validation loss:0.6952378890093636	accuracy:0.47058823529411764
+Model saved at epoch124
+Validation loss:0.6951662512386546	accuracy:0.47058823529411764
+Model saved at epoch125
+Validation loss:0.6950948378619026	accuracy:0.47058823529411764
+Model saved at epoch126
+Validation loss:0.6950726789586684	accuracy:0.47058823529411764
+Model saved at epoch127
+Validation loss:0.6955142862656537	accuracy:0.47058823529411764
+Validation loss:0.6955367256613338	accuracy:0.47058823529411764
+Validation loss:0.6954397874719956	accuracy:0.47058823529411764
+Validation loss:0.6954957737642176	accuracy:0.47058823529411764
+Validation loss:0.6955570333144244	accuracy:0.47058823529411764
+Validation loss:0.6954867980059456	accuracy:0.47058823529411764
+Validation loss:0.6954277262968176	accuracy:0.47058823529411764
+Validation loss:0.695381669437184	accuracy:0.47058823529411764
+Validation loss:0.6953256831449621	accuracy:0.47058823529411764
+Validation loss:0.6953260758343864	accuracy:0.47058823529411764
+Validation loss:0.6953048706054688	accuracy:0.47058823529411764
+Validation loss:0.6953293856452493	accuracy:0.47058823529411764
+Validation loss:0.695246976964614	accuracy:0.47058823529411764
+Validation loss:0.6952874800738167	accuracy:0.47058823529411764
+Validation loss:0.6952640309053308	accuracy:0.47058823529411764
+Validation loss:0.6951835856718176	accuracy:0.47058823529411764
+Validation loss:0.6950079413021312	accuracy:0.47058823529411764
+Model saved at epoch144
+Validation loss:0.6948578778435203	accuracy:0.47058823529411764
+Model saved at epoch145
+Validation loss:0.6948702195111442	accuracy:0.47058823529411764
+Validation loss:0.6950471541460823	accuracy:0.47058823529411764
+Validation loss:0.6951676537008846	accuracy:0.47058823529411764
+Validation loss:0.6952772701487822	accuracy:0.47058823529411764
+Validation loss:0.6953037486356848	accuracy:0.47058823529411764
+Validation loss:0.6952632455264821	accuracy:0.47058823529411764
+Validation loss:0.6952451818129596	accuracy:0.47058823529411764
+Validation loss:0.6952795701868394	accuracy:0.47058823529411764
+Validation loss:0.6953025705674115	accuracy:0.47058823529411764
+Validation loss:0.6952883776496438	accuracy:0.47058823529411764
+Validation loss:0.6951380336985868	accuracy:0.47058823529411764
+Validation loss:0.6950524835025563	accuracy:0.47058823529411764
+Validation loss:0.6950654422535616	accuracy:0.47058823529411764
+Validation loss:0.6949966094073128	accuracy:0.47058823529411764
+Validation loss:0.6949284497429343	accuracy:0.47058823529411764
+Validation loss:0.6942253673777861	accuracy:0.47058823529411764
+Model saved at epoch161
+Validation loss:0.6950400296379539	accuracy:0.47058823529411764
+Validation loss:0.6953380809110754	accuracy:0.47058823529411764
+Validation loss:0.6954170114853803	accuracy:0.47058823529411764
+Validation loss:0.6954330556532916	accuracy:0.47058823529411764
+Validation loss:0.6955020567950081	accuracy:0.47058823529411764
+Validation loss:0.6957146139705882	accuracy:0.47058823529411764
+Validation loss:0.6957442900713753	accuracy:0.47058823529411764
+Validation loss:0.6946689381318933	accuracy:0.47058823529411764
+Validation loss:0.694698782528148	accuracy:0.47058823529411764
+Validation loss:0.6948233211741728	accuracy:0.47058823529411764
+Validation loss:0.695296007044175	accuracy:0.47058823529411764
+Validation loss:0.6951033087337718	accuracy:0.47058823529411764
+Validation loss:0.6951406703275793	accuracy:0.47058823529411764
+Validation loss:0.6951462240780101	accuracy:0.47058823529411764
+Validation loss:0.6951111064237707	accuracy:0.47058823529411764
+Validation loss:0.6950973061954274	accuracy:0.47058823529411764
+Validation loss:0.6951122283935547	accuracy:0.47058823529411764
+Validation loss:0.6952015932868508	accuracy:0.47058823529411764
+Validation loss:0.6952020981732536	accuracy:0.47058823529411764
+Validation loss:0.6952821507173426	accuracy:0.47058823529411764
+Validation loss:0.6953393150778377	accuracy:0.47058823529411764
+Validation loss:0.6953956940594841	accuracy:0.47058823529411764
+Validation loss:0.6953281514784869	accuracy:0.47058823529411764
+Validation loss:0.6953335930319393	accuracy:0.47058823529411764
+Validation loss:0.6953936184153837	accuracy:0.47058823529411764
+Validation loss:0.6953380809110754	accuracy:0.47058823529411764
+Validation loss:0.6953974892111385	accuracy:0.47058823529411764
+Validation loss:0.6954383289112764	accuracy:0.47058823529411764
+Validation loss:0.6954115138334387	accuracy:0.47058823529411764
+Validation loss:0.695470978231991	accuracy:0.47058823529411764
+Validation loss:0.6954795613008387	accuracy:0.47058823529411764
+Validation loss:0.6954570097081801	accuracy:0.47058823529411764
+Validation loss:0.6954116821289062	accuracy:0.47058823529411764
+Validation loss:0.6953330881455365	accuracy:0.47058823529411764
+Validation loss:0.6952728383681354	accuracy:0.47058823529411764
+Validation loss:0.695188185747932	accuracy:0.47058823529411764
+Validation loss:0.6951702342313879	accuracy:0.47058823529411764
+Validation loss:0.6951348360847024	accuracy:0.47058823529411764
+Validation loss:0.6948912564445945	accuracy:0.47058823529411764
+Validation loss:0.6949126299689797	accuracy:0.47058823529411764
+Validation loss:0.6949274960686179	accuracy:0.47058823529411764
+Validation loss:0.6948523240930894	accuracy:0.47058823529411764
+Validation loss:0.6947206609389361	accuracy:0.47058823529411764
+Validation loss:0.6952174691592946	accuracy:0.47058823529411764
+Validation loss:0.6952148325303021	accuracy:0.47058823529411764
+Validation loss:0.6952882093541762	accuracy:0.47058823529411764
+Validation loss:0.6953431297751034	accuracy:0.47058823529411764
+Validation loss:0.6953498054953182	accuracy:0.47058823529411764
+Validation loss:0.6952994851505055	accuracy:0.47058823529411764
+Validation loss:0.6951145845301011	accuracy:0.47058823529411764
+Validation loss:0.6949669333065257	accuracy:0.47058823529411764
+Independent Test Accuracy:0.47058823529411764
+Working on split: 2
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6914935392491958	accuracy:0.5294117647058824
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6933372721952551	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6952727822696462	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.6959215051987592	accuracy:0.5294117647058824
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6980874117682961	accuracy:0.4411764705882353
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6948481167063993	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6944580078125	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6977134592392865	accuracy:0.4411764705882353
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.694211903740378	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.697140188778148	accuracy:0.4411764705882353
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.693999122170841	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6946351107429055	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6941195656271542	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.7018762476303998	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.696067305172191	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6945285797119141	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.7017519333783317	accuracy:0.4264705882352941
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6940281811882468	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6956359077902401	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6950710521024817	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6952902288997874	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6975143657011145	accuracy:0.4852941176470588
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.6952769335578469	accuracy:0.38235294117647056
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6977355059455422	accuracy:0.4411764705882353
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6985934762393727	accuracy:0.4411764705882353
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6946601306690889	accuracy:0.4411764705882353
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.6974728528191062	accuracy:0.4117647058823529
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6964566847857308	accuracy:0.4264705882352941
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.7028423197129193	accuracy:0.5
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6982842052684111	accuracy:0.47058823529411764
+Best hyperparameters: [nhid: 8, batch_size:16, lr:0.0001])
+Training Starts.
+Validation loss:0.7598046695484835	accuracy:0.47058823529411764
+Model saved at epoch0
+Validation loss:0.758676248438218	accuracy:0.47058823529411764
+Model saved at epoch1
+Validation loss:0.7577534843893612	accuracy:0.47058823529411764
+Model saved at epoch2
+Validation loss:0.7566065507776597	accuracy:0.47058823529411764
+Model saved at epoch3
+Validation loss:0.7556673498714671	accuracy:0.47058823529411764
+Model saved at epoch4
+Validation loss:0.7547425101785099	accuracy:0.47058823529411764
+Model saved at epoch5
+Validation loss:0.7535563076243681	accuracy:0.47058823529411764
+Model saved at epoch6
+Validation loss:0.7528094123391544	accuracy:0.47058823529411764
+Model saved at epoch7
+Validation loss:0.7521462159998277	accuracy:0.47058823529411764
+Model saved at epoch8
+Validation loss:0.7513521418851965	accuracy:0.47058823529411764
+Model saved at epoch9
+Validation loss:0.7505239037906423	accuracy:0.47058823529411764
+Model saved at epoch10
+Validation loss:0.749631545122932	accuracy:0.47058823529411764
+Model saved at epoch11
+Validation loss:0.7490600698134479	accuracy:0.47058823529411764
+Model saved at epoch12
+Validation loss:0.748419256771312	accuracy:0.47058823529411764
+Model saved at epoch13
+Validation loss:0.7479622223797966	accuracy:0.47058823529411764
+Model saved at epoch14
+Validation loss:0.7473509732414695	accuracy:0.47058823529411764
+Model saved at epoch15
+Validation loss:0.746919688056497	accuracy:0.47058823529411764
+Model saved at epoch16
+Validation loss:0.7464035258573645	accuracy:0.47058823529411764
+Model saved at epoch17
+Validation loss:0.7459624795352712	accuracy:0.47058823529411764
+Model saved at epoch18
+Validation loss:0.7456066468182732	accuracy:0.47058823529411764
+Model saved at epoch19
+Validation loss:0.7453060711131376	accuracy:0.47058823529411764
+Model saved at epoch20
+Validation loss:0.7449789608226103	accuracy:0.47058823529411764
+Model saved at epoch21
+Validation loss:0.7446611067828011	accuracy:0.47058823529411764
+Model saved at epoch22
+Validation loss:0.7444059147554285	accuracy:0.47058823529411764
+Model saved at epoch23
+Validation loss:0.7441314248477712	accuracy:0.47058823529411764
+Model saved at epoch24
+Validation loss:0.7439335654763615	accuracy:0.47058823529411764
+Model saved at epoch25
+Validation loss:0.7437372768626493	accuracy:0.47058823529411764
+Model saved at epoch26
+Validation loss:0.7435514225679285	accuracy:0.47058823529411764
+Model saved at epoch27
+Validation loss:0.741420633652631	accuracy:0.47058823529411764
+Model saved at epoch28
+Validation loss:0.7412338256835938	accuracy:0.47058823529411764
+Model saved at epoch29
+Validation loss:0.741059471579159	accuracy:0.47058823529411764
+Model saved at epoch30
+Validation loss:0.739963082706227	accuracy:0.47058823529411764
+Model saved at epoch31
+Validation loss:0.7398058386409984	accuracy:0.47058823529411764
+Model saved at epoch32
+Validation loss:0.7396641338572782	accuracy:0.47058823529411764
+Model saved at epoch33
+Validation loss:0.7395095264210421	accuracy:0.47058823529411764
+Model saved at epoch34
+Validation loss:0.740299337050494	accuracy:0.47058823529411764
+Validation loss:0.7401768179500804	accuracy:0.47058823529411764
+Validation loss:0.7400017906637752	accuracy:0.47058823529411764
+Validation loss:0.739734032574822	accuracy:0.47058823529411764
+Validation loss:0.7395902521470014	accuracy:0.47058823529411764
+Validation loss:0.7403935825123507	accuracy:0.47058823529411764
+Validation loss:0.7401627372292912	accuracy:0.47058823529411764
+Validation loss:0.7398527930764591	accuracy:0.47058823529411764
+Validation loss:0.7384218328139361	accuracy:0.47058823529411764
+Model saved at epoch43
+Validation loss:0.7380092845243567	accuracy:0.47058823529411764
+Model saved at epoch44
+Validation loss:0.737980001112994	accuracy:0.47058823529411764
+Model saved at epoch45
+Validation loss:0.7373503516702091	accuracy:0.47058823529411764
+Model saved at epoch46
+Validation loss:0.7368679046630859	accuracy:0.47058823529411764
+Model saved at epoch47
+Validation loss:0.7366251104018268	accuracy:0.47058823529411764
+Model saved at epoch48
+Validation loss:0.736233486848719	accuracy:0.47058823529411764
+Model saved at epoch49
+Validation loss:0.7356912949505974	accuracy:0.47058823529411764
+Model saved at epoch50
+Validation loss:0.735109946307014	accuracy:0.47058823529411764
+Model saved at epoch51
+Validation loss:0.7346630096435547	accuracy:0.47058823529411764
+Model saved at epoch52
+Validation loss:0.7353228400735294	accuracy:0.47058823529411764
+Validation loss:0.7348643471212948	accuracy:0.47058823529411764
+Validation loss:0.73461773816277	accuracy:0.47058823529411764
+Model saved at epoch55
+Validation loss:0.7343169380636776	accuracy:0.47058823529411764
+Model saved at epoch56
+Validation loss:0.7337535409366384	accuracy:0.47058823529411764
+Model saved at epoch57
+Validation loss:0.7326548520256492	accuracy:0.47058823529411764
+Model saved at epoch58
+Validation loss:0.731440824620864	accuracy:0.47058823529411764
+Model saved at epoch59
+Validation loss:0.7302262362311868	accuracy:0.47058823529411764
+Model saved at epoch60
+Validation loss:0.7291509964886833	accuracy:0.47058823529411764
+Model saved at epoch61
+Validation loss:0.7276772330789005	accuracy:0.47058823529411764
+Model saved at epoch62
+Validation loss:0.7254499547621783	accuracy:0.47058823529411764
+Model saved at epoch63
+Validation loss:0.7242307662963867	accuracy:0.47058823529411764
+Model saved at epoch64
+Validation loss:0.7230932572308708	accuracy:0.47058823529411764
+Model saved at epoch65
+Validation loss:0.7227635664098403	accuracy:0.47058823529411764
+Model saved at epoch66
+Validation loss:0.7211352516623104	accuracy:0.47058823529411764
+Model saved at epoch67
+Validation loss:0.7203887490665212	accuracy:0.47058823529411764
+Model saved at epoch68
+Validation loss:0.7188753801233628	accuracy:0.47058823529411764
+Model saved at epoch69
+Validation loss:0.7177886401905733	accuracy:0.47058823529411764
+Model saved at epoch70
+Validation loss:0.7168175192440257	accuracy:0.47058823529411764
+Model saved at epoch71
+Validation loss:0.715761521283318	accuracy:0.47058823529411764
+Model saved at epoch72
+Validation loss:0.7144508922801298	accuracy:0.47058823529411764
+Model saved at epoch73
+Validation loss:0.7136491887709674	accuracy:0.47058823529411764
+Model saved at epoch74
+Validation loss:0.7127228905172909	accuracy:0.47058823529411764
+Model saved at epoch75
+Validation loss:0.7119411580702838	accuracy:0.47058823529411764
+Model saved at epoch76
+Validation loss:0.7103564318488625	accuracy:0.47058823529411764
+Model saved at epoch77
+Validation loss:0.709039239322438	accuracy:0.47058823529411764
+Model saved at epoch78
+Validation loss:0.7078785054823932	accuracy:0.47058823529411764
+Model saved at epoch79
+Validation loss:0.7076284184175379	accuracy:0.47058823529411764
+Model saved at epoch80
+Validation loss:0.7073834363152	accuracy:0.47058823529411764
+Model saved at epoch81
+Validation loss:0.7066679561839384	accuracy:0.47058823529411764
+Model saved at epoch82
+Validation loss:0.7061331131879021	accuracy:0.47058823529411764
+Model saved at epoch83
+Validation loss:0.705348014831543	accuracy:0.47058823529411764
+Model saved at epoch84
+Validation loss:0.7049048367668601	accuracy:0.47058823529411764
+Model saved at epoch85
+Validation loss:0.7046180051915786	accuracy:0.47058823529411764
+Model saved at epoch86
+Validation loss:0.7045255548813764	accuracy:0.47058823529411764
+Model saved at epoch87
+Validation loss:0.7041802125818589	accuracy:0.47058823529411764
+Model saved at epoch88
+Validation loss:0.7039261986227596	accuracy:0.47058823529411764
+Model saved at epoch89
+Validation loss:0.703557014465332	accuracy:0.47058823529411764
+Model saved at epoch90
+Validation loss:0.7032127380371094	accuracy:0.47058823529411764
+Model saved at epoch91
+Validation loss:0.7029969271491555	accuracy:0.47058823529411764
+Model saved at epoch92
+Validation loss:0.7026556239408606	accuracy:0.47058823529411764
+Model saved at epoch93
+Validation loss:0.7021452959846047	accuracy:0.47058823529411764
+Model saved at epoch94
+Validation loss:0.7017745410694796	accuracy:0.47058823529411764
+Model saved at epoch95
+Validation loss:0.7014892802518957	accuracy:0.47058823529411764
+Model saved at epoch96
+Validation loss:0.7014589309692383	accuracy:0.47058823529411764
+Model saved at epoch97
+Validation loss:0.7014252157772288	accuracy:0.47058823529411764
+Model saved at epoch98
+Validation loss:0.7012403151568245	accuracy:0.47058823529411764
+Model saved at epoch99
+Validation loss:0.7006944207584157	accuracy:0.47058823529411764
+Model saved at epoch100
+Validation loss:0.7008242887609145	accuracy:0.47058823529411764
+Validation loss:0.7007510241340188	accuracy:0.47058823529411764
+Validation loss:0.7002403595868278	accuracy:0.47058823529411764
+Model saved at epoch103
+Validation loss:0.7003165974336512	accuracy:0.47058823529411764
+Validation loss:0.700134838328642	accuracy:0.47058823529411764
+Model saved at epoch105
+Validation loss:0.6997018140905044	accuracy:0.47058823529411764
+Model saved at epoch106
+Validation loss:0.6996293909409467	accuracy:0.47058823529411764
+Model saved at epoch107
+Validation loss:0.6992760265574736	accuracy:0.47058823529411764
+Model saved at epoch108
+Validation loss:0.6992588604197782	accuracy:0.47058823529411764
+Model saved at epoch109
+Validation loss:0.7003992866067326	accuracy:0.47058823529411764
+Validation loss:0.7004112355849322	accuracy:0.47058823529411764
+Validation loss:0.7002145542817957	accuracy:0.47058823529411764
+Validation loss:0.7001145867740407	accuracy:0.47058823529411764
+Validation loss:0.7000183217665729	accuracy:0.47058823529411764
+Validation loss:0.6998276430017808	accuracy:0.47058823529411764
+Validation loss:0.6997232437133789	accuracy:0.47058823529411764
+Validation loss:0.6995207842658547	accuracy:0.47058823529411764
+Validation loss:0.6992076985976275	accuracy:0.47058823529411764
+Model saved at epoch118
+Validation loss:0.6988383461447323	accuracy:0.47058823529411764
+Model saved at epoch119
+Validation loss:0.6973703047808479	accuracy:0.47058823529411764
+Model saved at epoch120
+Validation loss:0.6969389634973863	accuracy:0.47058823529411764
+Model saved at epoch121
+Validation loss:0.6971903969259823	accuracy:0.47058823529411764
+Validation loss:0.696845671709846	accuracy:0.47058823529411764
+Model saved at epoch123
+Validation loss:0.6967150744269875	accuracy:0.47058823529411764
+Model saved at epoch124
+Validation loss:0.69653460558723	accuracy:0.47058823529411764
+Model saved at epoch125
+Validation loss:0.6963619905359605	accuracy:0.47058823529411764
+Model saved at epoch126
+Validation loss:0.6964921951293945	accuracy:0.47058823529411764
+Validation loss:0.6962908015531653	accuracy:0.47058823529411764
+Model saved at epoch128
+Validation loss:0.6963903763714958	accuracy:0.47058823529411764
+Validation loss:0.6963415706858915	accuracy:0.47058823529411764
+Validation loss:0.6964419869815602	accuracy:0.47058823529411764
+Validation loss:0.6976127063526827	accuracy:0.47058823529411764
+Validation loss:0.6976549485150505	accuracy:0.47058823529411764
+Validation loss:0.6975895376766429	accuracy:0.47058823529411764
+Validation loss:0.6975512224085191	accuracy:0.47058823529411764
+Validation loss:0.6974488426657284	accuracy:0.47058823529411764
+Validation loss:0.6974221958833582	accuracy:0.47058823529411764
+Validation loss:0.697336757884306	accuracy:0.47058823529411764
+Validation loss:0.6973469117108513	accuracy:0.47058823529411764
+Validation loss:0.6972564809462604	accuracy:0.47058823529411764
+Validation loss:0.6973664900835823	accuracy:0.47058823529411764
+Validation loss:0.6972685982199276	accuracy:0.47058823529411764
+Validation loss:0.6971207226023954	accuracy:0.47058823529411764
+Validation loss:0.6969907985014074	accuracy:0.47058823529411764
+Validation loss:0.6968153224271887	accuracy:0.47058823529411764
+Validation loss:0.696847635156968	accuracy:0.47058823529411764
+Validation loss:0.6970284966861501	accuracy:0.47058823529411764
+Validation loss:0.6970941319185144	accuracy:0.47058823529411764
+Validation loss:0.697180804084329	accuracy:0.47058823529411764
+Validation loss:0.6982044332167682	accuracy:0.47058823529411764
+Validation loss:0.6982297897338867	accuracy:0.47058823529411764
+Validation loss:0.6982225530287799	accuracy:0.47058823529411764
+Validation loss:0.697215248556698	accuracy:0.47058823529411764
+Validation loss:0.6971308203304515	accuracy:0.47058823529411764
+Validation loss:0.6969150094424977	accuracy:0.47058823529411764
+Validation loss:0.6966270558974322	accuracy:0.47058823529411764
+Validation loss:0.696503246531767	accuracy:0.47058823529411764
+Validation loss:0.6965645060819738	accuracy:0.47058823529411764
+Validation loss:0.6966079263126149	accuracy:0.47058823529411764
+Validation loss:0.6967431236715877	accuracy:0.47058823529411764
+Validation loss:0.6967586629530963	accuracy:0.47058823529411764
+Validation loss:0.6967657874612248	accuracy:0.47058823529411764
+Validation loss:0.6967628703397863	accuracy:0.47058823529411764
+Validation loss:0.6968213810640222	accuracy:0.47058823529411764
+Validation loss:0.6968090954948875	accuracy:0.47058823529411764
+Validation loss:0.6968246908748851	accuracy:0.47058823529411764
+Validation loss:0.6969334097469554	accuracy:0.47058823529411764
+Validation loss:0.697930279900046	accuracy:0.47058823529411764
+Validation loss:0.6978350246653837	accuracy:0.47058823529411764
+Validation loss:0.6977918288286995	accuracy:0.47058823529411764
+Validation loss:0.6977991777307847	accuracy:0.47058823529411764
+Validation loss:0.6990946601418888	accuracy:0.47058823529411764
+Validation loss:0.6992513993207146	accuracy:0.47058823529411764
+Validation loss:0.699226603788488	accuracy:0.47058823529411764
+Validation loss:0.6991610246546128	accuracy:0.47058823529411764
+Validation loss:0.6990695841172162	accuracy:0.47058823529411764
+Validation loss:0.6977415645823759	accuracy:0.47058823529411764
+Validation loss:0.6977826847749597	accuracy:0.47058823529411764
+Validation loss:0.6979061575496898	accuracy:0.47058823529411764
+Independent Test Accuracy:0.4852941176470588
+Working on split: 3
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6930899900548598	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6929379070506376	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6935374316047219	accuracy:0.4852941176470588
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.7006757960600012	accuracy:0.5147058823529411
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6932783126831055	accuracy:0.4117647058823529
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6927668066585765	accuracy:0.5147058823529411
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6933440040139591	accuracy:0.4852941176470588
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6950702106251436	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6931008170632755	accuracy:0.5147058823529411
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6932099847232595	accuracy:0.4852941176470588
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6926916346830481	accuracy:0.5
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6932884104111615	accuracy:0.5294117647058824
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6934462154612822	accuracy:0.4852941176470588
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.694827304166906	accuracy:0.5147058823529411
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6946595135857078	accuracy:0.45588235294117646
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6936087888829848	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.6954398435704848	accuracy:0.4411764705882353
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6931389079374426	accuracy:0.5147058823529411
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6965233297909007	accuracy:0.5
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6929770637960995	accuracy:0.5
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6987523471607882	accuracy:0.4411764705882353
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6936966391170726	accuracy:0.4411764705882353
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.692832722383387	accuracy:0.5294117647058824
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6941793666166418	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6928248124964097	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6913499271168428	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.6935085408827838	accuracy:0.5147058823529411
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6933530358707204	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.6941889594582951	accuracy:0.45588235294117646
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6956946990069222	accuracy:0.47058823529411764
+Best hyperparameters: [nhid: 128, batch_size:16, lr:0.0005])
+Training Starts.
+Validation loss:0.6933061375337488	accuracy:0.4852941176470588
+Model saved at epoch0
+Validation loss:0.6931156831629136	accuracy:0.5147058823529411
+Model saved at epoch1
+Validation loss:0.693088082706227	accuracy:0.5147058823529411
+Model saved at epoch2
+Validation loss:0.6930272719439339	accuracy:0.5147058823529411
+Model saved at epoch3
+Validation loss:0.6928123586318072	accuracy:0.5147058823529411
+Model saved at epoch4
+Validation loss:0.6927187302533317	accuracy:0.5147058823529411
+Model saved at epoch5
+Validation loss:0.6929316801183364	accuracy:0.5147058823529411
+Validation loss:0.6929978202371037	accuracy:0.5147058823529411
+Validation loss:0.6929855346679688	accuracy:0.5147058823529411
+Validation loss:0.6930243548224954	accuracy:0.5147058823529411
+Validation loss:0.6929529975442326	accuracy:0.5147058823529411
+Validation loss:0.6929448632632985	accuracy:0.5147058823529411
+Validation loss:0.6931585424086627	accuracy:0.5147058823529411
+Validation loss:0.6931428909301758	accuracy:0.5147058823529411
+Validation loss:0.692973305197323	accuracy:0.5147058823529411
+Validation loss:0.6929804858039407	accuracy:0.5147058823529411
+Validation loss:0.6930498796350816	accuracy:0.5147058823529411
+Validation loss:0.6932502073400161	accuracy:0.4852941176470588
+Validation loss:0.6932842030244715	accuracy:0.4852941176470588
+Validation loss:0.6933946048512178	accuracy:0.4852941176470588
+Validation loss:0.6933722776525161	accuracy:0.4852941176470588
+Validation loss:0.6933175816255457	accuracy:0.4852941176470588
+Validation loss:0.6932931226842544	accuracy:0.4852941176470588
+Validation loss:0.6932324802174288	accuracy:0.45588235294117646
+Validation loss:0.692903855267693	accuracy:0.5147058823529411
+Validation loss:0.6929629830753102	accuracy:0.5147058823529411
+Validation loss:0.6929245556102079	accuracy:0.5147058823529411
+Validation loss:0.6928351907169118	accuracy:0.5147058823529411
+Validation loss:0.6928514592787799	accuracy:0.5147058823529411
+Validation loss:0.6929100261015051	accuracy:0.5147058823529411
+Validation loss:0.6930282817167395	accuracy:0.5147058823529411
+Validation loss:0.6930882510016946	accuracy:0.5147058823529411
+Validation loss:0.693139861611759	accuracy:0.5147058823529411
+Validation loss:0.6930599212646484	accuracy:0.5147058823529411
+Validation loss:0.6930618847117704	accuracy:0.5147058823529411
+Validation loss:0.6931153465719784	accuracy:0.5147058823529411
+Validation loss:0.6931582619162167	accuracy:0.5147058823529411
+Validation loss:0.6931272394516889	accuracy:0.47058823529411764
+Validation loss:0.693121966193704	accuracy:0.47058823529411764
+Validation loss:0.6931557374842027	accuracy:0.4411764705882353
+Validation loss:0.6932183433981502	accuracy:0.47058823529411764
+Validation loss:0.6932721418492934	accuracy:0.5147058823529411
+Validation loss:0.6932489170747644	accuracy:0.5147058823529411
+Validation loss:0.6932372485890108	accuracy:0.47058823529411764
+Validation loss:0.6932866152595071	accuracy:0.47058823529411764
+Validation loss:0.693365265341366	accuracy:0.45588235294117646
+Validation loss:0.693479481865378	accuracy:0.47058823529411764
+Validation loss:0.6935970642987419	accuracy:0.5294117647058824
+Validation loss:0.6937945870792165	accuracy:0.47058823529411764
+Validation loss:0.6939040352316463	accuracy:0.4852941176470588
+Validation loss:0.6940751356237075	accuracy:0.47058823529411764
+Validation loss:0.6943155737484202	accuracy:0.47058823529411764
+Validation loss:0.6946242837344899	accuracy:0.47058823529411764
+Validation loss:0.6949576209573185	accuracy:0.4852941176470588
+Validation loss:0.6950763814589557	accuracy:0.4117647058823529
+Validation loss:0.6940737331614775	accuracy:0.47058823529411764
+Validation loss:0.6938570807961857	accuracy:0.4411764705882353
+Independent Test Accuracy:0.47058823529411764
+Working on split: 4
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6985879224889419	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6945553947897518	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6952514087452608	accuracy:0.4117647058823529
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.7147605559405159	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6945691950180951	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6952063616584329	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6932853810927447	accuracy:0.4117647058823529
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6953475615557503	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6941965327543371	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6940576328950769	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.694735190447639	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6946051541496726	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6942513970767751	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.695397881900563	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6944303512573242	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.693511682398179	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.7010698318481445	accuracy:0.4264705882352941
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.7026695924646714	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.7046790403478286	accuracy:0.35294117647058826
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6957257775699391	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6957772759830251	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6937052782844094	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.692348087535185	accuracy:0.5147058823529411
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.695047098047593	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6957607830272001	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6978860181920669	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.7043430664960075	accuracy:0.4264705882352941
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.694067450130687	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.7005903580609489	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6977627698112937	accuracy:0.47058823529411764
+Best hyperparameters: [nhid: 64, batch_size:32, lr:0.0005])
+Training Starts.
+Validation loss:0.6920250163358801	accuracy:0.5294117647058824
+Model saved at epoch0
+Validation loss:0.6925536323996151	accuracy:0.5294117647058824
+Validation loss:0.6930478039909812	accuracy:0.5294117647058824
+Validation loss:0.6944382050458122	accuracy:0.5147058823529411
+Validation loss:0.6954788320204791	accuracy:0.45588235294117646
+Validation loss:0.6961995854097254	accuracy:0.4411764705882353
+Validation loss:0.697075226727654	accuracy:0.4264705882352941
+Validation loss:0.696078244377585	accuracy:0.4411764705882353
+Validation loss:0.6959436641019934	accuracy:0.4411764705882353
+Validation loss:0.6972045337452608	accuracy:0.4411764705882353
+Validation loss:0.6965652353623334	accuracy:0.4264705882352941
+Validation loss:0.6948845807243796	accuracy:0.45588235294117646
+Validation loss:0.6940157273236442	accuracy:0.47058823529411764
+Validation loss:0.6939124500050264	accuracy:0.4852941176470588
+Validation loss:0.6946159811580882	accuracy:0.47058823529411764
+Validation loss:0.6971356448005227	accuracy:0.4264705882352941
+Validation loss:0.6970072914572323	accuracy:0.4117647058823529
+Validation loss:0.6986300524543313	accuracy:0.5147058823529411
+Validation loss:0.6978388393626493	accuracy:0.47058823529411764
+Validation loss:0.6967944537892061	accuracy:0.4117647058823529
+Validation loss:0.694753927343032	accuracy:0.4411764705882353
+Validation loss:0.6938738542444566	accuracy:0.4852941176470588
+Validation loss:0.6933665556066176	accuracy:0.4852941176470588
+Validation loss:0.6942660948809456	accuracy:0.4411764705882353
+Validation loss:0.6952934265136719	accuracy:0.45588235294117646
+Validation loss:0.6955147350535673	accuracy:0.4411764705882353
+Validation loss:0.695595853468951	accuracy:0.4411764705882353
+Validation loss:0.695223471697639	accuracy:0.4411764705882353
+Validation loss:0.6952001908246208	accuracy:0.4411764705882353
+Validation loss:0.6952767652623794	accuracy:0.4264705882352941
+Validation loss:0.6970595752491671	accuracy:0.47058823529411764
+Validation loss:0.6982177846571979	accuracy:0.47058823529411764
+Validation loss:0.6979048672844382	accuracy:0.47058823529411764
+Validation loss:0.6982736026539522	accuracy:0.47058823529411764
+Validation loss:0.6989735996021944	accuracy:0.47058823529411764
+Validation loss:0.6976517509011662	accuracy:0.47058823529411764
+Validation loss:0.698408800012925	accuracy:0.47058823529411764
+Validation loss:0.7006380417767692	accuracy:0.47058823529411764
+Validation loss:0.7008033079259536	accuracy:0.47058823529411764
+Validation loss:0.6999907774083755	accuracy:0.4411764705882353
+Validation loss:0.6994875739602482	accuracy:0.4411764705882353
+Validation loss:0.6995391845703125	accuracy:0.45588235294117646
+Validation loss:0.6987434835994945	accuracy:0.4852941176470588
+Validation loss:0.6976442337036133	accuracy:0.47058823529411764
+Validation loss:0.6961999220006606	accuracy:0.4411764705882353
+Validation loss:0.6947392856373507	accuracy:0.4264705882352941
+Validation loss:0.6938886642456055	accuracy:0.4852941176470588
+Validation loss:0.6940388399011949	accuracy:0.5
+Validation loss:0.695131918963264	accuracy:0.4411764705882353
+Validation loss:0.6968963847440832	accuracy:0.4117647058823529
+Validation loss:0.6986818874583525	accuracy:0.47058823529411764
+Validation loss:0.6992347380694222	accuracy:0.45588235294117646
+Independent Test Accuracy:0.5441176470588235
+Working on split: 5
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.7007142235251034	accuracy:0.45588235294117646
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6955896265366498	accuracy:0.45588235294117646
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6943984873154584	accuracy:0.4852941176470588
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.719307450687184	accuracy:0.45588235294117646
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6997492173138786	accuracy:0.45588235294117646
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6959549959968118	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6933643116670496	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6934183906106388	accuracy:0.5147058823529411
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6951229432049919	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6964767680448645	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6959273955401253	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.7010852028341854	accuracy:0.4264705882352941
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6944643469417796	accuracy:0.45588235294117646
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6981364418478573	accuracy:0.45588235294117646
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6950826083912569	accuracy:0.45588235294117646
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6931145050946403	accuracy:0.5
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.6980623357436236	accuracy:0.45588235294117646
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6995100694544175	accuracy:0.5294117647058824
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6983073739444509	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6968759087955251	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6965012269861558	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6965213102452895	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.7044980666216683	accuracy:0.4411764705882353
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.69513079699348	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6930821362663718	accuracy:0.5147058823529411
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.7046244004193474	accuracy:0.45588235294117646
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.7028117460363051	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.695749002344468	accuracy:0.45588235294117646
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.6994120653937844	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.7007382897769704	accuracy:0.38235294117647056
+Best hyperparameters: [nhid: 128, batch_size:16, lr:0.0001])
+Training Starts.
+Validation loss:0.6925710229312673	accuracy:0.5441176470588235
+Model saved at epoch0
+Validation loss:0.6927945193122415	accuracy:0.5441176470588235
+Validation loss:0.6929393656113568	accuracy:0.5441176470588235
+Validation loss:0.6930426990284639	accuracy:0.5441176470588235
+Validation loss:0.6931160197538488	accuracy:0.5147058823529411
+Validation loss:0.6932140238144818	accuracy:0.4852941176470588
+Validation loss:0.6932870079489315	accuracy:0.45588235294117646
+Validation loss:0.6933232475729549	accuracy:0.45588235294117646
+Validation loss:0.6934612498563879	accuracy:0.45588235294117646
+Validation loss:0.6935945398667279	accuracy:0.45588235294117646
+Validation loss:0.6936900194953469	accuracy:0.45588235294117646
+Validation loss:0.6937316445743337	accuracy:0.45588235294117646
+Validation loss:0.6937243517707375	accuracy:0.45588235294117646
+Validation loss:0.6937551498413086	accuracy:0.45588235294117646
+Validation loss:0.6937862845028148	accuracy:0.45588235294117646
+Validation loss:0.6938571368946749	accuracy:0.45588235294117646
+Validation loss:0.6938723395852482	accuracy:0.45588235294117646
+Validation loss:0.6938263388241038	accuracy:0.45588235294117646
+Validation loss:0.6938313315896427	accuracy:0.45588235294117646
+Validation loss:0.693823309505687	accuracy:0.45588235294117646
+Validation loss:0.6939045962165383	accuracy:0.45588235294117646
+Validation loss:0.6940162883085363	accuracy:0.45588235294117646
+Validation loss:0.6940653183880974	accuracy:0.45588235294117646
+Validation loss:0.6941705030553481	accuracy:0.45588235294117646
+Validation loss:0.6943403131821576	accuracy:0.45588235294117646
+Validation loss:0.6945715511546415	accuracy:0.45588235294117646
+Validation loss:0.6947076460894417	accuracy:0.45588235294117646
+Validation loss:0.6948164210600012	accuracy:0.45588235294117646
+Validation loss:0.6949801164514878	accuracy:0.45588235294117646
+Validation loss:0.6950800278607536	accuracy:0.45588235294117646
+Validation loss:0.6951146406285903	accuracy:0.45588235294117646
+Validation loss:0.69512939453125	accuracy:0.45588235294117646
+Validation loss:0.695378864512724	accuracy:0.45588235294117646
+Validation loss:0.6960133945240694	accuracy:0.45588235294117646
+Validation loss:0.6972604078405044	accuracy:0.45588235294117646
+Validation loss:0.6974055346320657	accuracy:0.45588235294117646
+Validation loss:0.6975801692289465	accuracy:0.45588235294117646
+Validation loss:0.6983097861794865	accuracy:0.45588235294117646
+Validation loss:0.69622381995706	accuracy:0.45588235294117646
+Validation loss:0.695889809552361	accuracy:0.45588235294117646
+Validation loss:0.695623566122616	accuracy:0.45588235294117646
+Validation loss:0.6958089716294232	accuracy:0.45588235294117646
+Validation loss:0.6958909876206342	accuracy:0.45588235294117646
+Validation loss:0.6960411071777344	accuracy:0.45588235294117646
+Validation loss:0.6960875567267922	accuracy:0.45588235294117646
+Validation loss:0.6958781410666073	accuracy:0.45588235294117646
+Validation loss:0.6956458372228286	accuracy:0.45588235294117646
+Validation loss:0.6952965119305778	accuracy:0.45588235294117646
+Validation loss:0.6952059689690085	accuracy:0.45588235294117646
+Validation loss:0.6952169081744026	accuracy:0.45588235294117646
+Validation loss:0.6954101113712087	accuracy:0.45588235294117646
+Validation loss:0.6957497877233169	accuracy:0.45588235294117646
+Independent Test Accuracy:0.5441176470588235
+Working on split: 6
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6996099247651941	accuracy:0.45588235294117646
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.694003049065085	accuracy:0.45588235294117646
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6932783126831055	accuracy:0.5
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.7188348770141602	accuracy:0.45588235294117646
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6916993085075828	accuracy:0.5
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6943626964793486	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6927999047672048	accuracy:0.5441176470588235
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6956839280969956	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6939891366397634	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6937728769638959	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6940635793349322	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6961747337790096	accuracy:0.39705882352941174
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6942571191226735	accuracy:0.4264705882352941
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6944102118997013	accuracy:0.45588235294117646
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6939288307638729	accuracy:0.4852941176470588
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6940821479348576	accuracy:0.5
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.697243241702809	accuracy:0.5
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6935917349422679	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6975079143748564	accuracy:0.4411764705882353
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.7028148875517004	accuracy:0.4264705882352941
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6972740397733801	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6934091904584099	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.6928404078764074	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6949676625868854	accuracy:0.4117647058823529
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6951051599839154	accuracy:0.4264705882352941
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.701966173508588	accuracy:0.4264705882352941
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.6932296752929688	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.694723409764907	accuracy:0.45588235294117646
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.682218215044807	accuracy:0.4264705882352941
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6942506677964154	accuracy:0.4411764705882353
+Best hyperparameters: [nhid: 128, batch_size:32, lr:0.0005])
+Training Starts.
+Validation loss:0.6921931435080135	accuracy:0.5441176470588235
+Model saved at epoch0
+Validation loss:0.6938938253066119	accuracy:0.45588235294117646
+Validation loss:0.6947983573464787	accuracy:0.45588235294117646
+Validation loss:0.6954034356509938	accuracy:0.45588235294117646
+Validation loss:0.695351151859059	accuracy:0.45588235294117646
+Validation loss:0.6969901814180262	accuracy:0.45588235294117646
+Validation loss:0.6959705352783203	accuracy:0.45588235294117646
+Validation loss:0.6919664495131549	accuracy:0.5441176470588235
+Model saved at epoch7
+Validation loss:0.6923722659840303	accuracy:0.5441176470588235
+Validation loss:0.6931174222160789	accuracy:0.5441176470588235
+Validation loss:0.6930538626278148	accuracy:0.5147058823529411
+Validation loss:0.6929988861083984	accuracy:0.5
+Validation loss:0.6928877550012925	accuracy:0.5147058823529411
+Validation loss:0.693424337050494	accuracy:0.4411764705882353
+Validation loss:0.6938820446238798	accuracy:0.4411764705882353
+Validation loss:0.6944057801190544	accuracy:0.4852941176470588
+Validation loss:0.6937627792358398	accuracy:0.45588235294117646
+Validation loss:0.6921136519488167	accuracy:0.5441176470588235
+Validation loss:0.6920005573945887	accuracy:0.5441176470588235
+Validation loss:0.6918552623075598	accuracy:0.5441176470588235
+Model saved at epoch19
+Validation loss:0.6921535379746381	accuracy:0.5441176470588235
+Validation loss:0.6924770579618567	accuracy:0.5441176470588235
+Validation loss:0.6926488315357882	accuracy:0.5441176470588235
+Validation loss:0.6931916405172909	accuracy:0.4852941176470588
+Validation loss:0.6936948439654183	accuracy:0.4411764705882353
+Validation loss:0.6938541075762581	accuracy:0.45588235294117646
+Validation loss:0.6939222111421472	accuracy:0.45588235294117646
+Validation loss:0.6938145581413718	accuracy:0.45588235294117646
+Validation loss:0.6940445058486041	accuracy:0.45588235294117646
+Validation loss:0.6940576889935661	accuracy:0.45588235294117646
+Validation loss:0.6938573051901424	accuracy:0.4411764705882353
+Validation loss:0.6938326779533835	accuracy:0.4411764705882353
+Validation loss:0.6945054671343636	accuracy:0.4411764705882353
+Validation loss:0.6960447535795324	accuracy:0.45588235294117646
+Validation loss:0.6972739836748909	accuracy:0.45588235294117646
+Validation loss:0.6951551998362822	accuracy:0.45588235294117646
+Validation loss:0.6943157420438879	accuracy:0.4411764705882353
+Validation loss:0.6946429645313936	accuracy:0.4411764705882353
+Validation loss:0.6938865886015051	accuracy:0.4264705882352941
+Validation loss:0.6937838722677792	accuracy:0.39705882352941174
+Validation loss:0.6943251665900735	accuracy:0.4264705882352941
+Validation loss:0.696649102603688	accuracy:0.4411764705882353
+Validation loss:0.6994216021369485	accuracy:0.4411764705882353
+Validation loss:0.702098061056698	accuracy:0.4411764705882353
+Validation loss:0.6977626576143152	accuracy:0.4411764705882353
+Validation loss:0.6934916552375344	accuracy:0.4852941176470588
+Validation loss:0.6922539542703068	accuracy:0.5441176470588235
+Validation loss:0.6916856204762178	accuracy:0.5441176470588235
+Model saved at epoch47
+Validation loss:0.6915351643281824	accuracy:0.5441176470588235
+Model saved at epoch48
+Validation loss:0.6914794585284065	accuracy:0.5441176470588235
+Model saved at epoch49
+Validation loss:0.6917609607472139	accuracy:0.5441176470588235
+Validation loss:0.692607094259823	accuracy:0.5441176470588235
+Validation loss:0.693111307480756	accuracy:0.5294117647058824
+Validation loss:0.693388490115895	accuracy:0.5294117647058824
+Validation loss:0.6939022961784812	accuracy:0.39705882352941174
+Validation loss:0.6944125680362477	accuracy:0.4411764705882353
+Validation loss:0.6948850856107824	accuracy:0.4411764705882353
+Validation loss:0.6941501393037683	accuracy:0.4411764705882353
+Validation loss:0.6938334633322323	accuracy:0.4117647058823529
+Validation loss:0.6937256981344784	accuracy:0.4117647058823529
+Validation loss:0.6934164271635168	accuracy:0.5
+Validation loss:0.6930414087632123	accuracy:0.5441176470588235
+Validation loss:0.6932009528664982	accuracy:0.5294117647058824
+Validation loss:0.6929661245907054	accuracy:0.5441176470588235
+Validation loss:0.6931119245641372	accuracy:0.5294117647058824
+Validation loss:0.6934384738697725	accuracy:0.5147058823529411
+Validation loss:0.6935550465303308	accuracy:0.4852941176470588
+Validation loss:0.6938779494341683	accuracy:0.38235294117647056
+Validation loss:0.6942465165082146	accuracy:0.4264705882352941
+Validation loss:0.6941171533921185	accuracy:0.39705882352941174
+Validation loss:0.6939709607292625	accuracy:0.4117647058823529
+Validation loss:0.6938992668600643	accuracy:0.4117647058823529
+Validation loss:0.6936188866110409	accuracy:0.5
+Validation loss:0.6937644060920266	accuracy:0.4411764705882353
+Validation loss:0.6937754013959099	accuracy:0.45588235294117646
+Validation loss:0.6943535524256089	accuracy:0.4117647058823529
+Validation loss:0.6943709990557503	accuracy:0.4264705882352941
+Validation loss:0.6947416978723863	accuracy:0.4411764705882353
+Validation loss:0.6957381753360524	accuracy:0.4411764705882353
+Validation loss:0.6953346589032341	accuracy:0.4411764705882353
+Validation loss:0.6946928360882927	accuracy:0.4411764705882353
+Validation loss:0.6944745568668141	accuracy:0.4264705882352941
+Validation loss:0.6942111183615292	accuracy:0.45588235294117646
+Validation loss:0.6939692777745864	accuracy:0.4117647058823529
+Validation loss:0.694071938009823	accuracy:0.4117647058823529
+Validation loss:0.6946967629825368	accuracy:0.35294117647058826
+Validation loss:0.6949770310345817	accuracy:0.38235294117647056
+Validation loss:0.695271884693819	accuracy:0.4264705882352941
+Validation loss:0.6955752653234145	accuracy:0.4264705882352941
+Validation loss:0.697663475485409	accuracy:0.4411764705882353
+Validation loss:0.6998408822452321	accuracy:0.4411764705882353
+Validation loss:0.7020190182854148	accuracy:0.4411764705882353
+Validation loss:0.7010614731732536	accuracy:0.4411764705882353
+Validation loss:0.6971708185532514	accuracy:0.4264705882352941
+Validation loss:0.6949422499712776	accuracy:0.38235294117647056
+Validation loss:0.6941965888528263	accuracy:0.45588235294117646
+Validation loss:0.6936406528248507	accuracy:0.47058823529411764
+Validation loss:0.6937314201803768	accuracy:0.4852941176470588
+Validation loss:0.6938675712136662	accuracy:0.4852941176470588
+Validation loss:0.6940260494456572	accuracy:0.5
+Validation loss:0.6941501393037683	accuracy:0.5
+Independent Test Accuracy:0.47058823529411764
+Working on split: 7
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6916777105892405	accuracy:0.5294117647058824
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6933305403765511	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6948151868932387	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.6959164002362419	accuracy:0.5294117647058824
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6923197016996496	accuracy:0.4852941176470588
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.693297778858858	accuracy:0.45588235294117646
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6946306228637695	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6949065713321462	accuracy:0.4264705882352941
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6937354592715993	accuracy:0.5
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6928323857924518	accuracy:0.5
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.693265297833611	accuracy:0.4264705882352941
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6939703436458812	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6939480164471794	accuracy:0.5
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6933273988611558	accuracy:0.5147058823529411
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6949241301592659	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6949983484604779	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.6905662312227137	accuracy:0.4852941176470588
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6933823192820829	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6936372869154986	accuracy:0.5
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6941901375265682	accuracy:0.47058823529411764
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6946289399090935	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.693365265341366	accuracy:0.4117647058823529
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.6946250691133387	accuracy:0.47058823529411764
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6948707243975472	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6953891305362477	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6925578397863051	accuracy:0.5147058823529411
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.694414868074305	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6939720266005572	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.694726495181813	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6943186030668371	accuracy:0.47058823529411764
+Best hyperparameters: [nhid: 32, batch_size:32, lr:0.0005])
+Training Starts.
+Validation loss:0.6943400887882009	accuracy:0.4852941176470588
+Model saved at epoch0
+Validation loss:0.6932898128733915	accuracy:0.47058823529411764
+Model saved at epoch1
+Validation loss:0.6921579136567957	accuracy:0.5294117647058824
+Model saved at epoch2
+Validation loss:0.6919949475456687	accuracy:0.5441176470588235
+Model saved at epoch3
+Validation loss:0.6921724431654986	accuracy:0.5294117647058824
+Validation loss:0.6920141893274644	accuracy:0.5441176470588235
+Validation loss:0.6925453859217027	accuracy:0.5294117647058824
+Validation loss:0.6918393303366268	accuracy:0.5441176470588235
+Model saved at epoch7
+Validation loss:0.6924819946289062	accuracy:0.5
+Validation loss:0.6922866596895105	accuracy:0.5147058823529411
+Validation loss:0.6923593633315143	accuracy:0.5294117647058824
+Validation loss:0.6926357044893152	accuracy:0.47058823529411764
+Validation loss:0.6923415801104378	accuracy:0.5
+Validation loss:0.6917941149543313	accuracy:0.4852941176470588
+Model saved at epoch13
+Validation loss:0.6922083461985868	accuracy:0.4852941176470588
+Validation loss:0.6924235400031594	accuracy:0.5
+Validation loss:0.6923084820018095	accuracy:0.5
+Validation loss:0.6922259611241958	accuracy:0.5
+Validation loss:0.6922351612764246	accuracy:0.5
+Validation loss:0.6921129787669462	accuracy:0.5294117647058824
+Validation loss:0.691878038294175	accuracy:0.5294117647058824
+Validation loss:0.691895653219784	accuracy:0.5147058823529411
+Validation loss:0.6919269000782686	accuracy:0.5
+Validation loss:0.6918900994693532	accuracy:0.5
+Validation loss:0.6916051752427045	accuracy:0.5294117647058824
+Model saved at epoch24
+Validation loss:0.6914723901187673	accuracy:0.5294117647058824
+Model saved at epoch25
+Validation loss:0.6916267170625574	accuracy:0.5
+Validation loss:0.6919412051930147	accuracy:0.5
+Validation loss:0.6920921662274528	accuracy:0.5
+Validation loss:0.692324862760656	accuracy:0.5147058823529411
+Validation loss:0.6924678017111385	accuracy:0.5147058823529411
+Validation loss:0.692782626432531	accuracy:0.5147058823529411
+Validation loss:0.6918472963220933	accuracy:0.5441176470588235
+Validation loss:0.6913741055656882	accuracy:0.5
+Model saved at epoch33
+Validation loss:0.6914147208718693	accuracy:0.5294117647058824
+Validation loss:0.6915588939891142	accuracy:0.5
+Validation loss:0.6915912067188936	accuracy:0.5294117647058824
+Validation loss:0.6917231503654929	accuracy:0.5
+Validation loss:0.6916931937722599	accuracy:0.5
+Validation loss:0.691914390115177	accuracy:0.5147058823529411
+Validation loss:0.6919761545517865	accuracy:0.5147058823529411
+Validation loss:0.691762363209444	accuracy:0.5294117647058824
+Validation loss:0.6915216445922852	accuracy:0.5294117647058824
+Validation loss:0.6913534052231732	accuracy:0.5
+Model saved at epoch43
+Validation loss:0.6915266934563132	accuracy:0.5294117647058824
+Validation loss:0.6915965360753676	accuracy:0.5147058823529411
+Validation loss:0.6915454864501953	accuracy:0.5
+Validation loss:0.6916879205142751	accuracy:0.5294117647058824
+Validation loss:0.6916043337653665	accuracy:0.5
+Validation loss:0.6915142956902	accuracy:0.5
+Validation loss:0.6916046703563017	accuracy:0.5294117647058824
+Validation loss:0.6915242251227883	accuracy:0.5
+Validation loss:0.6913125655230354	accuracy:0.5
+Model saved at epoch52
+Validation loss:0.6913123411290786	accuracy:0.5147058823529411
+Model saved at epoch53
+Validation loss:0.6912100174847771	accuracy:0.5294117647058824
+Model saved at epoch54
+Validation loss:0.6911890366498161	accuracy:0.5147058823529411
+Model saved at epoch55
+Validation loss:0.6911980124080882	accuracy:0.5294117647058824
+Validation loss:0.6912102418787339	accuracy:0.5294117647058824
+Validation loss:0.6911969465367934	accuracy:0.5294117647058824
+Validation loss:0.6911639045266544	accuracy:0.5294117647058824
+Model saved at epoch59
+Validation loss:0.6911743388456457	accuracy:0.5294117647058824
+Validation loss:0.6912017710068646	accuracy:0.5294117647058824
+Validation loss:0.6912859187406653	accuracy:0.5294117647058824
+Validation loss:0.6912344764260685	accuracy:0.5294117647058824
+Validation loss:0.691257589003619	accuracy:0.5294117647058824
+Validation loss:0.6914037816664752	accuracy:0.5294117647058824
+Validation loss:0.6915051516364602	accuracy:0.5
+Validation loss:0.6915897481581744	accuracy:0.5
+Validation loss:0.6922167048734778	accuracy:0.4852941176470588
+Validation loss:0.6928658765905044	accuracy:0.5
+Validation loss:0.6928621740902171	accuracy:0.5
+Validation loss:0.6927985584034639	accuracy:0.5
+Validation loss:0.6926096747903263	accuracy:0.5
+Validation loss:0.6921348010792452	accuracy:0.5294117647058824
+Validation loss:0.6919096217435949	accuracy:0.5147058823529411
+Validation loss:0.6915468328139361	accuracy:0.5294117647058824
+Validation loss:0.6914231356452493	accuracy:0.5294117647058824
+Validation loss:0.6914102890912224	accuracy:0.5294117647058824
+Validation loss:0.6914984198177562	accuracy:0.5
+Validation loss:0.6916112338795382	accuracy:0.5
+Validation loss:0.6915716844446519	accuracy:0.5147058823529411
+Validation loss:0.6915829602409812	accuracy:0.5294117647058824
+Validation loss:0.6915849797865924	accuracy:0.5294117647058824
+Validation loss:0.6916325513054343	accuracy:0.5294117647058824
+Validation loss:0.6918218276079964	accuracy:0.5294117647058824
+Validation loss:0.6920401629279641	accuracy:0.5
+Validation loss:0.692131379071404	accuracy:0.5
+Validation loss:0.6923410752240349	accuracy:0.5147058823529411
+Validation loss:0.6924722334917854	accuracy:0.5147058823529411
+Validation loss:0.692710371578441	accuracy:0.5294117647058824
+Validation loss:0.6928445591646082	accuracy:0.5147058823529411
+Validation loss:0.6928563398473403	accuracy:0.4852941176470588
+Validation loss:0.69287389867446	accuracy:0.4852941176470588
+Validation loss:0.6929838517132927	accuracy:0.5147058823529411
+Validation loss:0.6932882982141831	accuracy:0.47058823529411764
+Validation loss:0.6932549196131089	accuracy:0.5147058823529411
+Validation loss:0.6928369297700769	accuracy:0.5
+Validation loss:0.6927327548756319	accuracy:0.5
+Validation loss:0.6924037933349609	accuracy:0.5
+Validation loss:0.6923271627987132	accuracy:0.5
+Validation loss:0.6926164066090303	accuracy:0.5
+Validation loss:0.6924072153428021	accuracy:0.5147058823529411
+Validation loss:0.6924841824699851	accuracy:0.5294117647058824
+Validation loss:0.6925220489501953	accuracy:0.5294117647058824
+Validation loss:0.6923639634076286	accuracy:0.5
+Validation loss:0.6922697179457721	accuracy:0.5
+Validation loss:0.6921178032370174	accuracy:0.5
+Validation loss:0.6920489142922794	accuracy:0.5
+Validation loss:0.6921199910780963	accuracy:0.5
+Validation loss:0.6922101974487305	accuracy:0.5
+Validation loss:0.6922446980195887	accuracy:0.5147058823529411
+Independent Test Accuracy:0.5147058823529411
+Working on split: 8
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6930963852826286	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6931367761948529	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.693751335144043	accuracy:0.4852941176470588
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.7004105624030618	accuracy:0.5147058823529411
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6962436227237477	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6938734615550322	accuracy:0.4264705882352941
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6938302096198586	accuracy:0.4852941176470588
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6933199377620921	accuracy:0.4852941176470588
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6935296900132123	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6941227071425494	accuracy:0.5147058823529411
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6935745688045726	accuracy:0.4852941176470588
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6940470863791073	accuracy:0.4852941176470588
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6933061375337488	accuracy:0.4852941176470588
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6955172033870921	accuracy:0.5294117647058824
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6941405464621151	accuracy:0.4852941176470588
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6938905154957491	accuracy:0.4852941176470588
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.6951769660500919	accuracy:0.4852941176470588
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6995905146879309	accuracy:0.39705882352941174
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6898081162396599	accuracy:0.5735294117647058
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.693454854628619	accuracy:0.4852941176470588
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6936498529770795	accuracy:0.4852941176470588
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6952523624195772	accuracy:0.4852941176470588
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.6941195656271542	accuracy:0.4411764705882353
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6944224413703469	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6938226924223059	accuracy:0.4852941176470588
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6975520077873679	accuracy:0.5294117647058824
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.7004480922923368	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6948664609123679	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.6938523685230928	accuracy:0.4852941176470588
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6943481669706457	accuracy:0.4852941176470588
+Best hyperparameters: [nhid: 64, batch_size:16, lr:0.0001])
+Training Starts.
+Validation loss:0.7017652287202722	accuracy:0.4852941176470588
+Model saved at epoch0
+Validation loss:0.7006710837869083	accuracy:0.4852941176470588
+Model saved at epoch1
+Validation loss:0.699588326846852	accuracy:0.4852941176470588
+Model saved at epoch2
+Validation loss:0.6987880818984088	accuracy:0.4852941176470588
+Model saved at epoch3
+Validation loss:0.6982191871194279	accuracy:0.4852941176470588
+Model saved at epoch4
+Validation loss:0.6978736765244428	accuracy:0.4852941176470588
+Model saved at epoch5
+Validation loss:0.6976428873398725	accuracy:0.4852941176470588
+Model saved at epoch6
+Validation loss:0.6975144778980928	accuracy:0.4852941176470588
+Model saved at epoch7
+Validation loss:0.6974063761094037	accuracy:0.4852941176470588
+Model saved at epoch8
+Validation loss:0.697146640104406	accuracy:0.4852941176470588
+Model saved at epoch9
+Validation loss:0.6968543108771829	accuracy:0.4852941176470588
+Model saved at epoch10
+Validation loss:0.6966324413523954	accuracy:0.4852941176470588
+Model saved at epoch11
+Validation loss:0.6963468439438764	accuracy:0.4852941176470588
+Model saved at epoch12
+Validation loss:0.6962362738216624	accuracy:0.4852941176470588
+Model saved at epoch13
+Validation loss:0.6960884543026195	accuracy:0.4852941176470588
+Model saved at epoch14
+Validation loss:0.6958523918600643	accuracy:0.4852941176470588
+Model saved at epoch15
+Validation loss:0.6955259547514074	accuracy:0.4852941176470588
+Model saved at epoch16
+Validation loss:0.6952538770787856	accuracy:0.4852941176470588
+Model saved at epoch17
+Validation loss:0.6950948378619026	accuracy:0.4852941176470588
+Model saved at epoch18
+Validation loss:0.6948727439431583	accuracy:0.4852941176470588
+Model saved at epoch19
+Validation loss:0.6946636648739085	accuracy:0.4852941176470588
+Model saved at epoch20
+Validation loss:0.6944968840655159	accuracy:0.4852941176470588
+Model saved at epoch21
+Validation loss:0.6943991604973289	accuracy:0.4852941176470588
+Model saved at epoch22
+Validation loss:0.694094321307014	accuracy:0.4852941176470588
+Model saved at epoch23
+Validation loss:0.6937077466179343	accuracy:0.4852941176470588
+Model saved at epoch24
+Validation loss:0.6934988919426414	accuracy:0.4852941176470588
+Model saved at epoch25
+Validation loss:0.6934321347404929	accuracy:0.4852941176470588
+Model saved at epoch26
+Validation loss:0.6933956146240234	accuracy:0.4852941176470588
+Model saved at epoch27
+Validation loss:0.6933290818158317	accuracy:0.4852941176470588
+Model saved at epoch28
+Validation loss:0.6931868160472197	accuracy:0.5
+Model saved at epoch29
+Validation loss:0.692959841559915	accuracy:0.5
+Model saved at epoch30
+Validation loss:0.6928813597735237	accuracy:0.5
+Model saved at epoch31
+Validation loss:0.6927031348733341	accuracy:0.5
+Model saved at epoch32
+Validation loss:0.6924083373125862	accuracy:0.5147058823529411
+Model saved at epoch33
+Validation loss:0.692232188056497	accuracy:0.5588235294117647
+Model saved at epoch34
+Validation loss:0.692194377674776	accuracy:0.5147058823529411
+Model saved at epoch35
+Validation loss:0.6919360441320083	accuracy:0.5
+Model saved at epoch36
+Validation loss:0.6916878644157859	accuracy:0.5
+Model saved at epoch37
+Validation loss:0.691616787629969	accuracy:0.5147058823529411
+Model saved at epoch38
+Validation loss:0.6917619705200195	accuracy:0.5
+Validation loss:0.69171282824348	accuracy:0.5147058823529411
+Validation loss:0.6917740316951976	accuracy:0.5
+Validation loss:0.691836020525764	accuracy:0.5
+Validation loss:0.6919771643245921	accuracy:0.5
+Validation loss:0.6922696618472829	accuracy:0.5
+Validation loss:0.6924965241376091	accuracy:0.5735294117647058
+Validation loss:0.6927270328297335	accuracy:0.5
+Validation loss:0.692751547869514	accuracy:0.5
+Validation loss:0.6928742352653953	accuracy:0.5
+Validation loss:0.6928519080666935	accuracy:0.5
+Validation loss:0.6929439656874713	accuracy:0.5
+Validation loss:0.692849271437701	accuracy:0.5
+Validation loss:0.6927129521089441	accuracy:0.4852941176470588
+Validation loss:0.6927079593434053	accuracy:0.4852941176470588
+Validation loss:0.692623867708094	accuracy:0.4852941176470588
+Validation loss:0.6926115260404699	accuracy:0.5
+Validation loss:0.6925543055814856	accuracy:0.5
+Validation loss:0.6925604203168083	accuracy:0.4852941176470588
+Validation loss:0.6925847670611214	accuracy:0.4852941176470588
+Validation loss:0.6925366345573875	accuracy:0.4852941176470588
+Validation loss:0.692535119898179	accuracy:0.5
+Validation loss:0.6926091699039235	accuracy:0.4852941176470588
+Validation loss:0.6924234839046702	accuracy:0.6029411764705882
+Validation loss:0.6923943126902861	accuracy:0.6029411764705882
+Validation loss:0.6924232034122243	accuracy:0.6029411764705882
+Validation loss:0.6925118390251609	accuracy:0.5735294117647058
+Validation loss:0.6925371394437903	accuracy:0.5588235294117647
+Validation loss:0.6924550112556008	accuracy:0.5882352941176471
+Validation loss:0.6922441931331859	accuracy:0.5
+Validation loss:0.6922654544605928	accuracy:0.4852941176470588
+Validation loss:0.692207841312184	accuracy:0.4852941176470588
+Validation loss:0.6923397288602942	accuracy:0.5147058823529411
+Validation loss:0.6924454745124368	accuracy:0.5147058823529411
+Validation loss:0.6924263449276195	accuracy:0.5147058823529411
+Validation loss:0.6924478306489832	accuracy:0.5
+Validation loss:0.6924973656149471	accuracy:0.5
+Validation loss:0.692388141856474	accuracy:0.5
+Validation loss:0.6923159991993624	accuracy:0.5
+Validation loss:0.6923239651848289	accuracy:0.5
+Validation loss:0.6924468208761776	accuracy:0.5
+Validation loss:0.6925039852366728	accuracy:0.5
+Validation loss:0.6925638423246496	accuracy:0.4852941176470588
+Validation loss:0.6927871704101562	accuracy:0.5147058823529411
+Validation loss:0.6928163977230296	accuracy:0.5735294117647058
+Validation loss:0.6929011064417222	accuracy:0.4852941176470588
+Validation loss:0.6930171742158777	accuracy:0.4852941176470588
+Validation loss:0.6931252760045669	accuracy:0.5147058823529411
+Validation loss:0.6931086147532743	accuracy:0.5147058823529411
+Validation loss:0.6931080537683824	accuracy:0.5
+Validation loss:0.693087521721335	accuracy:0.4852941176470588
+Independent Test Accuracy:0.45588235294117646
+Working on split: 9
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6930788825539982	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6977082420797909	accuracy:0.5147058823529411
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6934397641350242	accuracy:0.45588235294117646
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.6922843035529641	accuracy:0.5147058823529411
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6927488551420324	accuracy:0.5147058823529411
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6948885076186236	accuracy:0.4852941176470588
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6934880649342257	accuracy:0.5147058823529411
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6948432361378389	accuracy:0.4411764705882353
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.693014425389907	accuracy:0.5147058823529411
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6936490675982308	accuracy:0.5
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6943827797384823	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6936576506670784	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6933832168579102	accuracy:0.5
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6951383141910329	accuracy:0.38235294117647056
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.693352643181296	accuracy:0.4411764705882353
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6933716605691349	accuracy:0.5
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.6929499121273265	accuracy:0.5147058823529411
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6930237938376034	accuracy:0.5147058823529411
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6941988888908835	accuracy:0.4852941176470588
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6935499976663029	accuracy:0.5
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.6944829716401941	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6925461152020622	accuracy:0.5147058823529411
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.6928788353415096	accuracy:0.5147058823529411
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.692969939287971	accuracy:0.5147058823529411
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6946558671839097	accuracy:0.5
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.694374308866613	accuracy:0.47058823529411764
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.695345261517693	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6939369089463178	accuracy:0.47058823529411764
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.6953107609468347	accuracy:0.5294117647058824
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6951702903298771	accuracy:0.4852941176470588
+Best hyperparameters: [nhid: 8, batch_size:32, lr:0.0001])
+Training Starts.
+Validation loss:0.8845596313476562	accuracy:0.4852941176470588
+Model saved at epoch0
+Validation loss:0.8577102773329791	accuracy:0.4852941176470588
+Model saved at epoch1
+Validation loss:0.8357884463141946	accuracy:0.4852941176470588
+Model saved at epoch2
+Validation loss:0.8175079121309168	accuracy:0.4852941176470588
+Model saved at epoch3
+Validation loss:0.8017893398509306	accuracy:0.4852941176470588
+Model saved at epoch4
+Validation loss:0.7870019463931813	accuracy:0.4852941176470588
+Model saved at epoch5
+Validation loss:0.7771627762738396	accuracy:0.4852941176470588
+Model saved at epoch6
+Validation loss:0.7678492489983054	accuracy:0.4852941176470588
+Model saved at epoch7
+Validation loss:0.7589976927813362	accuracy:0.4852941176470588
+Model saved at epoch8
+Validation loss:0.7516147389131433	accuracy:0.4852941176470588
+Model saved at epoch9
+Validation loss:0.7451146069694968	accuracy:0.4852941176470588
+Model saved at epoch10
+Validation loss:0.7392902374267578	accuracy:0.4852941176470588
+Model saved at epoch11
+Validation loss:0.7333164776072782	accuracy:0.4852941176470588
+Model saved at epoch12
+Validation loss:0.7295933330760282	accuracy:0.4852941176470588
+Model saved at epoch13
+Validation loss:0.7258529663085938	accuracy:0.4852941176470588
+Model saved at epoch14
+Validation loss:0.7234201992259306	accuracy:0.4852941176470588
+Model saved at epoch15
+Validation loss:0.7208494298598346	accuracy:0.4852941176470588
+Model saved at epoch16
+Validation loss:0.71843079959645	accuracy:0.4852941176470588
+Model saved at epoch17
+Validation loss:0.7167978847728056	accuracy:0.4852941176470588
+Model saved at epoch18
+Validation loss:0.7151389402501723	accuracy:0.4852941176470588
+Model saved at epoch19
+Validation loss:0.7137910057516659	accuracy:0.4852941176470588
+Model saved at epoch20
+Validation loss:0.7124222587136662	accuracy:0.4852941176470588
+Model saved at epoch21
+Validation loss:0.7112441343419692	accuracy:0.4852941176470588
+Model saved at epoch22
+Validation loss:0.71014123804429	accuracy:0.4852941176470588
+Model saved at epoch23
+Validation loss:0.7091322506175322	accuracy:0.4852941176470588
+Model saved at epoch24
+Validation loss:0.7084826862110811	accuracy:0.4852941176470588
+Model saved at epoch25
+Validation loss:0.7076577579273897	accuracy:0.4852941176470588
+Model saved at epoch26
+Validation loss:0.7068253124461454	accuracy:0.4852941176470588
+Model saved at epoch27
+Validation loss:0.7061510647044462	accuracy:0.4852941176470588
+Model saved at epoch28
+Validation loss:0.7056306951186236	accuracy:0.4852941176470588
+Model saved at epoch29
+Validation loss:0.7050380706787109	accuracy:0.4852941176470588
+Model saved at epoch30
+Validation loss:0.704418799456428	accuracy:0.4852941176470588
+Model saved at epoch31
+Validation loss:0.7037956574383903	accuracy:0.4852941176470588
+Model saved at epoch32
+Validation loss:0.7032943052404067	accuracy:0.4852941176470588
+Model saved at epoch33
+Validation loss:0.7027494767132927	accuracy:0.4852941176470588
+Model saved at epoch34
+Validation loss:0.7021866405711454	accuracy:0.4852941176470588
+Model saved at epoch35
+Validation loss:0.701813305125517	accuracy:0.4852941176470588
+Model saved at epoch36
+Validation loss:0.7013945299036363	accuracy:0.4852941176470588
+Model saved at epoch37
+Validation loss:0.701018445632037	accuracy:0.4852941176470588
+Model saved at epoch38
+Validation loss:0.7006932426901424	accuracy:0.4852941176470588
+Model saved at epoch39
+Validation loss:0.7004226235782399	accuracy:0.4852941176470588
+Model saved at epoch40
+Validation loss:0.7001964905682732	accuracy:0.4852941176470588
+Model saved at epoch41
+Validation loss:0.7001371383666992	accuracy:0.4852941176470588
+Model saved at epoch42
+Validation loss:0.6999479181626264	accuracy:0.4852941176470588
+Model saved at epoch43
+Validation loss:0.6997542100794175	accuracy:0.4852941176470588
+Model saved at epoch44
+Validation loss:0.6995454115026137	accuracy:0.4852941176470588
+Model saved at epoch45
+Validation loss:0.6993692061480354	accuracy:0.4852941176470588
+Model saved at epoch46
+Validation loss:0.6992359722361845	accuracy:0.4852941176470588
+Model saved at epoch47
+Validation loss:0.6990985870361328	accuracy:0.4852941176470588
+Model saved at epoch48
+Validation loss:0.698944652781767	accuracy:0.4852941176470588
+Model saved at epoch49
+Validation loss:0.6988380095537972	accuracy:0.4852941176470588
+Model saved at epoch50
+Validation loss:0.6987231198479148	accuracy:0.4852941176470588
+Model saved at epoch51
+Validation loss:0.6986175985897288	accuracy:0.4852941176470588
+Model saved at epoch52
+Validation loss:0.6985084309297449	accuracy:0.4852941176470588
+Model saved at epoch53
+Validation loss:0.6983926436480354	accuracy:0.4852941176470588
+Model saved at epoch54
+Validation loss:0.6982730416690602	accuracy:0.4852941176470588
+Model saved at epoch55
+Validation loss:0.6982098186717314	accuracy:0.4852941176470588
+Model saved at epoch56
+Validation loss:0.6980991363525391	accuracy:0.4852941176470588
+Model saved at epoch57
+Validation loss:0.6979766172521255	accuracy:0.4852941176470588
+Model saved at epoch58
+Validation loss:0.6978662715238684	accuracy:0.4852941176470588
+Model saved at epoch59
+Validation loss:0.6977815628051758	accuracy:0.4852941176470588
+Model saved at epoch60
+Validation loss:0.6976712170769187	accuracy:0.4852941176470588
+Model saved at epoch61
+Validation loss:0.69757360570571	accuracy:0.4852941176470588
+Model saved at epoch62
+Validation loss:0.6974999483893899	accuracy:0.4852941176470588
+Model saved at epoch63
+Validation loss:0.6974430084228516	accuracy:0.4852941176470588
+Model saved at epoch64
+Validation loss:0.697363068075741	accuracy:0.4852941176470588
+Model saved at epoch65
+Validation loss:0.6972762276144588	accuracy:0.4852941176470588
+Model saved at epoch66
+Validation loss:0.6971983629114488	accuracy:0.4852941176470588
+Model saved at epoch67
+Validation loss:0.6971438912784352	accuracy:0.4852941176470588
+Model saved at epoch68
+Validation loss:0.6970794902128332	accuracy:0.4852941176470588
+Model saved at epoch69
+Validation loss:0.6970053841085995	accuracy:0.4852941176470588
+Model saved at epoch70
+Validation loss:0.6969550637637868	accuracy:0.4852941176470588
+Model saved at epoch71
+Validation loss:0.6968936359181124	accuracy:0.4852941176470588
+Model saved at epoch72
+Validation loss:0.6968182956471163	accuracy:0.4852941176470588
+Model saved at epoch73
+Validation loss:0.6967447505277746	accuracy:0.4852941176470588
+Model saved at epoch74
+Validation loss:0.6966786665074965	accuracy:0.4852941176470588
+Model saved at epoch75
+Validation loss:0.6966420341940487	accuracy:0.4852941176470588
+Model saved at epoch76
+Validation loss:0.6965800453634823	accuracy:0.4852941176470588
+Model saved at epoch77
+Validation loss:0.6965339885038488	accuracy:0.4852941176470588
+Model saved at epoch78
+Validation loss:0.6964651556575999	accuracy:0.4852941176470588
+Model saved at epoch79
+Validation loss:0.6964023814481848	accuracy:0.4852941176470588
+Model saved at epoch80
+Validation loss:0.6963672076954561	accuracy:0.4852941176470588
+Model saved at epoch81
+Validation loss:0.6963394950417912	accuracy:0.4852941176470588
+Model saved at epoch82
+Validation loss:0.6963010114781997	accuracy:0.4852941176470588
+Model saved at epoch83
+Validation loss:0.696262471816119	accuracy:0.4852941176470588
+Model saved at epoch84
+Validation loss:0.6962198369643268	accuracy:0.4852941176470588
+Model saved at epoch85
+Validation loss:0.6961624482098747	accuracy:0.4852941176470588
+Model saved at epoch86
+Validation loss:0.6961307525634766	accuracy:0.4852941176470588
+Model saved at epoch87
+Validation loss:0.6960951300228343	accuracy:0.4852941176470588
+Model saved at epoch88
+Validation loss:0.6960619758157169	accuracy:0.4852941176470588
+Model saved at epoch89
+Validation loss:0.6960252313052907	accuracy:0.4852941176470588
+Model saved at epoch90
+Validation loss:0.6959772670970243	accuracy:0.4852941176470588
+Model saved at epoch91
+Validation loss:0.6959298077751609	accuracy:0.4852941176470588
+Model saved at epoch92
+Validation loss:0.6958863875445198	accuracy:0.4852941176470588
+Model saved at epoch93
+Validation loss:0.6958344403435203	accuracy:0.4852941176470588
+Model saved at epoch94
+Validation loss:0.6957970226512236	accuracy:0.4852941176470588
+Model saved at epoch95
+Validation loss:0.6957576976102942	accuracy:0.4852941176470588
+Model saved at epoch96
+Validation loss:0.6957069284775678	accuracy:0.4852941176470588
+Model saved at epoch97
+Validation loss:0.6956754572251264	accuracy:0.4852941176470588
+Model saved at epoch98
+Validation loss:0.6956227807437673	accuracy:0.4852941176470588
+Model saved at epoch99
+Validation loss:0.6955780141493854	accuracy:0.4852941176470588
+Model saved at epoch100
+Validation loss:0.6955384647144991	accuracy:0.4852941176470588
+Model saved at epoch101
+Validation loss:0.6954790564144359	accuracy:0.4852941176470588
+Model saved at epoch102
+Validation loss:0.6954365898581112	accuracy:0.4852941176470588
+Model saved at epoch103
+Validation loss:0.6953999014461741	accuracy:0.4852941176470588
+Model saved at epoch104
+Validation loss:0.6953845865586225	accuracy:0.4852941176470588
+Model saved at epoch105
+Validation loss:0.6953349954941693	accuracy:0.4852941176470588
+Model saved at epoch106
+Validation loss:0.6953058803782743	accuracy:0.4852941176470588
+Model saved at epoch107
+Validation loss:0.6952661626479205	accuracy:0.4852941176470588
+Model saved at epoch108
+Validation loss:0.695251745336196	accuracy:0.4852941176470588
+Model saved at epoch109
+Validation loss:0.6952352523803711	accuracy:0.4852941176470588
+Model saved at epoch110
+Validation loss:0.6952139910529641	accuracy:0.4852941176470588
+Model saved at epoch111
+Validation loss:0.6951798831715303	accuracy:0.4852941176470588
+Model saved at epoch112
+Validation loss:0.6951359580544865	accuracy:0.4852941176470588
+Model saved at epoch113
+Validation loss:0.6950965208165786	accuracy:0.4852941176470588
+Model saved at epoch114
+Validation loss:0.6950735204360065	accuracy:0.4852941176470588
+Model saved at epoch115
+Validation loss:0.6950345319860122	accuracy:0.4852941176470588
+Model saved at epoch116
+Validation loss:0.6950183756211225	accuracy:0.4852941176470588
+Model saved at epoch117
+Validation loss:0.69500451929429	accuracy:0.4852941176470588
+Model saved at epoch118
+Validation loss:0.6950012094834271	accuracy:0.4852941176470588
+Model saved at epoch119
+Validation loss:0.6949772554285386	accuracy:0.4852941176470588
+Model saved at epoch120
+Validation loss:0.6949558819041532	accuracy:0.4852941176470588
+Model saved at epoch121
+Validation loss:0.6949304131900563	accuracy:0.4852941176470588
+Model saved at epoch122
+Validation loss:0.6949099933399874	accuracy:0.4852941176470588
+Model saved at epoch123
+Validation loss:0.6948720707612879	accuracy:0.4852941176470588
+Model saved at epoch124
+Validation loss:0.6948484532973346	accuracy:0.4852941176470588
+Model saved at epoch125
+Validation loss:0.6948319603415096	accuracy:0.4852941176470588
+Model saved at epoch126
+Validation loss:0.6948044159833122	accuracy:0.4852941176470588
+Model saved at epoch127
+Validation loss:0.6947768155266257	accuracy:0.4852941176470588
+Model saved at epoch128
+Validation loss:0.6947392856373507	accuracy:0.4852941176470588
+Model saved at epoch129
+Validation loss:0.6947216707117417	accuracy:0.4852941176470588
+Model saved at epoch130
+Validation loss:0.6946872823378619	accuracy:0.4852941176470588
+Model saved at epoch131
+Validation loss:0.6946608038509593	accuracy:0.4852941176470588
+Model saved at epoch132
+Validation loss:0.6946460499482996	accuracy:0.4852941176470588
+Model saved at epoch133
+Validation loss:0.6946254618027631	accuracy:0.4852941176470588
+Model saved at epoch134
+Validation loss:0.6946084639605354	accuracy:0.4852941176470588
+Model saved at epoch135
+Validation loss:0.6945925319896025	accuracy:0.4852941176470588
+Model saved at epoch136
+Validation loss:0.6945672876694623	accuracy:0.4852941176470588
+Model saved at epoch137
+Validation loss:0.6945341334623449	accuracy:0.4852941176470588
+Model saved at epoch138
+Validation loss:0.6945076549754423	accuracy:0.4852941176470588
+Model saved at epoch139
+Validation loss:0.6944702933816349	accuracy:0.4852941176470588
+Model saved at epoch140
+Validation loss:0.6944546980016372	accuracy:0.4852941176470588
+Model saved at epoch141
+Validation loss:0.6944325951968923	accuracy:0.4852941176470588
+Model saved at epoch142
+Validation loss:0.6944126802332261	accuracy:0.4852941176470588
+Model saved at epoch143
+Validation loss:0.6943919798907112	accuracy:0.4852941176470588
+Model saved at epoch144
+Validation loss:0.6943783479578355	accuracy:0.4852941176470588
+Model saved at epoch145
+Validation loss:0.6943681941312903	accuracy:0.4852941176470588
+Model saved at epoch146
+Validation loss:0.6943543378044578	accuracy:0.4852941176470588
+Model saved at epoch147
+Validation loss:0.694346035228056	accuracy:0.4852941176470588
+Model saved at epoch148
+Validation loss:0.6943277471205768	accuracy:0.4852941176470588
+Model saved at epoch149
+Validation loss:0.6943039613611558	accuracy:0.4852941176470588
+Model saved at epoch150
+Validation loss:0.6942870196174172	accuracy:0.4852941176470588
+Model saved at epoch151
+Validation loss:0.694277987760656	accuracy:0.4852941176470588
+Model saved at epoch152
+Validation loss:0.6942705266615924	accuracy:0.4852941176470588
+Model saved at epoch153
+Validation loss:0.6942642997292912	accuracy:0.4852941176470588
+Model saved at epoch154
+Validation loss:0.6942605411305147	accuracy:0.4852941176470588
+Model saved at epoch155
+Validation loss:0.6942405139698702	accuracy:0.4852941176470588
+Model saved at epoch156
+Validation loss:0.6942237405215993	accuracy:0.4852941176470588
+Model saved at epoch157
+Validation loss:0.6942080329446232	accuracy:0.4852941176470588
+Model saved at epoch158
+Validation loss:0.6941912594963523	accuracy:0.4852941176470588
+Model saved at epoch159
+Validation loss:0.6941662956686581	accuracy:0.4852941176470588
+Model saved at epoch160
+Validation loss:0.694149466121898	accuracy:0.4852941176470588
+Model saved at epoch161
+Validation loss:0.6941406025606043	accuracy:0.4852941176470588
+Model saved at epoch162
+Validation loss:0.694131570703843	accuracy:0.4852941176470588
+Model saved at epoch163
+Validation loss:0.6941224266501034	accuracy:0.4852941176470588
+Model saved at epoch164
+Validation loss:0.6940978555118337	accuracy:0.4852941176470588
+Model saved at epoch165
+Validation loss:0.6940869724049288	accuracy:0.4852941176470588
+Model saved at epoch166
+Validation loss:0.694065767176011	accuracy:0.4852941176470588
+Model saved at epoch167
+Validation loss:0.6940523035386029	accuracy:0.4852941176470588
+Model saved at epoch168
+Validation loss:0.6940396813785329	accuracy:0.4852941176470588
+Model saved at epoch169
+Validation loss:0.6940246469834271	accuracy:0.4852941176470588
+Model saved at epoch170
+Validation loss:0.694006414974437	accuracy:0.4852941176470588
+Model saved at epoch171
+Validation loss:0.6940026002771714	accuracy:0.4852941176470588
+Model saved at epoch172
+Validation loss:0.693995756261489	accuracy:0.4852941176470588
+Model saved at epoch173
+Validation loss:0.6939837511848	accuracy:0.4852941176470588
+Model saved at epoch174
+Validation loss:0.693970007054946	accuracy:0.4852941176470588
+Model saved at epoch175
+Validation loss:0.6939583946676815	accuracy:0.4852941176470588
+Model saved at epoch176
+Validation loss:0.6939473993637982	accuracy:0.4852941176470588
+Model saved at epoch177
+Validation loss:0.6939477920532227	accuracy:0.4852941176470588
+Validation loss:0.6939295600442326	accuracy:0.4852941176470588
+Model saved at epoch179
+Validation loss:0.6939164329977596	accuracy:0.4852941176470588
+Model saved at epoch180
+Validation loss:0.6939020717845243	accuracy:0.4852941176470588
+Model saved at epoch181
+Validation loss:0.6938877105712891	accuracy:0.4852941176470588
+Model saved at epoch182
+Validation loss:0.6938713298124426	accuracy:0.4852941176470588
+Model saved at epoch183
+Validation loss:0.6938648223876953	accuracy:0.4852941176470588
+Model saved at epoch184
+Validation loss:0.6938596613266889	accuracy:0.4852941176470588
+Model saved at epoch185
+Validation loss:0.6938469830681296	accuracy:0.4852941176470588
+Model saved at epoch186
+Validation loss:0.6938352584838867	accuracy:0.4852941176470588
+Model saved at epoch187
+Validation loss:0.693814614239861	accuracy:0.4852941176470588
+Model saved at epoch188
+Validation loss:0.6938003091251149	accuracy:0.4852941176470588
+Model saved at epoch189
+Validation loss:0.693789706510656	accuracy:0.4852941176470588
+Model saved at epoch190
+Validation loss:0.6937788234037512	accuracy:0.4852941176470588
+Model saved at epoch191
+Validation loss:0.6937649670769187	accuracy:0.4852941176470588
+Model saved at epoch192
+Validation loss:0.6937438179464901	accuracy:0.4852941176470588
+Model saved at epoch193
+Validation loss:0.693723061505486	accuracy:0.4852941176470588
+Model saved at epoch194
+Validation loss:0.6937030904433307	accuracy:0.4852941176470588
+Model saved at epoch195
+Validation loss:0.6936855877147001	accuracy:0.4852941176470588
+Model saved at epoch196
+Validation loss:0.6936696557437673	accuracy:0.4852941176470588
+Model saved at epoch197
+Validation loss:0.6936590531293083	accuracy:0.4852941176470588
+Model saved at epoch198
+Validation loss:0.693644691916073	accuracy:0.4852941176470588
+Model saved at epoch199
+Validation loss:0.6936344819910386	accuracy:0.4852941176470588
+Model saved at epoch200
+Validation loss:0.6936186622170841	accuracy:0.4852941176470588
+Model saved at epoch201
+Validation loss:0.6936062644509708	accuracy:0.4852941176470588
+Model saved at epoch202
+Validation loss:0.6935893788057215	accuracy:0.4852941176470588
+Model saved at epoch203
+Validation loss:0.6935768688426298	accuracy:0.4852941176470588
+Model saved at epoch204
+Validation loss:0.6935640783870921	accuracy:0.4852941176470588
+Model saved at epoch205
+Validation loss:0.6935482586131376	accuracy:0.4852941176470588
+Model saved at epoch206
+Validation loss:0.6935317095588235	accuracy:0.4852941176470588
+Model saved at epoch207
+Validation loss:0.6935167873606962	accuracy:0.4852941176470588
+Model saved at epoch208
+Validation loss:0.6935039969051585	accuracy:0.4852941176470588
+Model saved at epoch209
+Validation loss:0.6935056798598346	accuracy:0.4852941176470588
+Validation loss:0.6935060164507698	accuracy:0.4852941176470588
+Validation loss:0.6934997334199793	accuracy:0.4852941176470588
+Model saved at epoch212
+Validation loss:0.6934928333058077	accuracy:0.4852941176470588
+Model saved at epoch213
+Validation loss:0.6934850356158089	accuracy:0.4852941176470588
+Model saved at epoch214
+Validation loss:0.6934780233046588	accuracy:0.4852941176470588
+Model saved at epoch215
+Validation loss:0.693475274478688	accuracy:0.4852941176470588
+Model saved at epoch216
+Validation loss:0.6934678133796243	accuracy:0.4852941176470588
+Model saved at epoch217
+Validation loss:0.6934644474702722	accuracy:0.4852941176470588
+Model saved at epoch218
+Validation loss:0.6934588937198415	accuracy:0.4852941176470588
+Model saved at epoch219
+Validation loss:0.6934546863331514	accuracy:0.4852941176470588
+Model saved at epoch220
+Validation loss:0.6934459910673254	accuracy:0.4852941176470588
+Model saved at epoch221
+Validation loss:0.6934550229240867	accuracy:0.4852941176470588
+Validation loss:0.6934458788703469	accuracy:0.4852941176470588
+Model saved at epoch223
+Validation loss:0.6934461032643038	accuracy:0.4852941176470588
+Validation loss:0.6934082928825828	accuracy:0.4852941176470588
+Model saved at epoch225
+Validation loss:0.6933870315551758	accuracy:0.4852941176470588
+Model saved at epoch226
+Validation loss:0.6933787850772634	accuracy:0.4852941176470588
+Model saved at epoch227
+Validation loss:0.6933768777286305	accuracy:0.4852941176470588
+Model saved at epoch228
+Validation loss:0.6933686873492073	accuracy:0.4852941176470588
+Model saved at epoch229
+Validation loss:0.693360216477338	accuracy:0.4852941176470588
+Model saved at epoch230
+Validation loss:0.6933499504538143	accuracy:0.4852941176470588
+Model saved at epoch231
+Validation loss:0.69334675283993	accuracy:0.4852941176470588
+Model saved at epoch232
+Validation loss:0.6933432747335995	accuracy:0.4852941176470588
+Model saved at epoch233
+Validation loss:0.6933450137867647	accuracy:0.4852941176470588
+Validation loss:0.6933384502635282	accuracy:0.4852941176470588
+Model saved at epoch235
+Validation loss:0.6933290818158317	accuracy:0.4852941176470588
+Model saved at epoch236
+Validation loss:0.6933238085578469	accuracy:0.4852941176470588
+Model saved at epoch237
+Validation loss:0.6933240329518038	accuracy:0.4852941176470588
+Validation loss:0.6933156181784237	accuracy:0.4852941176470588
+Model saved at epoch239
+Validation loss:0.6933102327234605	accuracy:0.4852941176470588
+Model saved at epoch240
+Validation loss:0.6933048472684973	accuracy:0.4852941176470588
+Model saved at epoch241
+Validation loss:0.6933031643138212	accuracy:0.4852941176470588
+Model saved at epoch242
+Validation loss:0.6933001349954044	accuracy:0.4852941176470588
+Model saved at epoch243
+Validation loss:0.693298059351304	accuracy:0.4852941176470588
+Model saved at epoch244
+Validation loss:0.6932948617374196	accuracy:0.4852941176470588
+Model saved at epoch245
+Validation loss:0.6932912714341107	accuracy:0.4852941176470588
+Model saved at epoch246
+Validation loss:0.6932939080631032	accuracy:0.4852941176470588
+Validation loss:0.693295254426844	accuracy:0.4852941176470588
+Validation loss:0.69329553491929	accuracy:0.4852941176470588
+Validation loss:0.693287681130802	accuracy:0.4852941176470588
+Model saved at epoch250
+Validation loss:0.6932843713199391	accuracy:0.4852941176470588
+Model saved at epoch251
+Validation loss:0.6932750589707318	accuracy:0.4852941176470588
+Model saved at epoch252
+Validation loss:0.6932649051441866	accuracy:0.4852941176470588
+Model saved at epoch253
+Validation loss:0.6932653539321002	accuracy:0.4852941176470588
+Validation loss:0.6932658027200138	accuracy:0.4852941176470588
+Validation loss:0.6932539098403033	accuracy:0.4852941176470588
+Model saved at epoch256
+Validation loss:0.6932462804457721	accuracy:0.4852941176470588
+Model saved at epoch257
+Validation loss:0.6932405583998736	accuracy:0.4852941176470588
+Model saved at epoch258
+Validation loss:0.6932366876041188	accuracy:0.4852941176470588
+Model saved at epoch259
+Validation loss:0.693232536315918	accuracy:0.4852941176470588
+Model saved at epoch260
+Validation loss:0.6932277679443359	accuracy:0.4852941176470588
+Model saved at epoch261
+Validation loss:0.6932238971485811	accuracy:0.4852941176470588
+Model saved at epoch262
+Validation loss:0.6932221580954159	accuracy:0.4852941176470588
+Model saved at epoch263
+Validation loss:0.6932178946102366	accuracy:0.4852941176470588
+Model saved at epoch264
+Validation loss:0.6932094237383675	accuracy:0.4852941176470588
+Model saved at epoch265
+Validation loss:0.6932112188900218	accuracy:0.4852941176470588
+Validation loss:0.693209031048943	accuracy:0.4852941176470588
+Model saved at epoch267
+Validation loss:0.6932074602912454	accuracy:0.4852941176470588
+Model saved at epoch268
+Validation loss:0.6931992138133329	accuracy:0.4852941176470588
+Model saved at epoch269
+Validation loss:0.6931948381311753	accuracy:0.4852941176470588
+Model saved at epoch270
+Validation loss:0.6931937722598805	accuracy:0.4852941176470588
+Model saved at epoch271
+Validation loss:0.6931906307444853	accuracy:0.4852941176470588
+Model saved at epoch272
+Validation loss:0.6931845721076516	accuracy:0.4852941176470588
+Model saved at epoch273
+Validation loss:0.6931768866146312	accuracy:0.4852941176470588
+Model saved at epoch274
+Validation loss:0.6931766622206744	accuracy:0.4852941176470588
+Model saved at epoch275
+Validation loss:0.6931772793040556	accuracy:0.4852941176470588
+Validation loss:0.6931832818424001	accuracy:0.4852941176470588
+Validation loss:0.6931826086605296	accuracy:0.4852941176470588
+Validation loss:0.6931757646448472	accuracy:0.4852941176470588
+Model saved at epoch279
+Validation loss:0.693168415742762	accuracy:0.4852941176470588
+Model saved at epoch280
+Validation loss:0.6931637595681583	accuracy:0.4852941176470588
+Model saved at epoch281
+Validation loss:0.6931566911585191	accuracy:0.4852941176470588
+Model saved at epoch282
+Validation loss:0.6931595521814683	accuracy:0.4852941176470588
+Validation loss:0.6931585985071519	accuracy:0.4852941176470588
+Validation loss:0.6931506886201746	accuracy:0.4852941176470588
+Model saved at epoch285
+Validation loss:0.6931434519150678	accuracy:0.4852941176470588
+Model saved at epoch286
+Validation loss:0.6931375054752126	accuracy:0.4852941176470588
+Model saved at epoch287
+Validation loss:0.6931330175960765	accuracy:0.4852941176470588
+Model saved at epoch288
+Validation loss:0.6931364396039177	accuracy:0.4852941176470588
+Validation loss:0.6931348688462201	accuracy:0.4852941176470588
+Validation loss:0.6931288102093864	accuracy:0.4852941176470588
+Model saved at epoch291
+Validation loss:0.6931258369894588	accuracy:0.4852941176470588
+Model saved at epoch292
+Validation loss:0.6931182636934168	accuracy:0.4852941176470588
+Model saved at epoch293
+Validation loss:0.6931193295647117	accuracy:0.4852941176470588
+Validation loss:0.6931209003224093	accuracy:0.4852941176470588
+Validation loss:0.6931193295647117	accuracy:0.4852941176470588
+Validation loss:0.6931182075949276	accuracy:0.4852941176470588
+Model saved at epoch297
+Validation loss:0.6931189929737764	accuracy:0.4852941176470588
+Validation loss:0.6931169173296761	accuracy:0.4852941176470588
+Model saved at epoch299
+Validation loss:0.6931099611170152	accuracy:0.4852941176470588
+Model saved at epoch300
+Validation loss:0.6931108586928424	accuracy:0.4852941176470588
+Validation loss:0.6930938047521255	accuracy:0.4852941176470588
+Model saved at epoch302
+Validation loss:0.6930962730856502	accuracy:0.4852941176470588
+Validation loss:0.6930945340324851	accuracy:0.45588235294117646
+Validation loss:0.6930959364947151	accuracy:0.47058823529411764
+Validation loss:0.6931031171013328	accuracy:0.4852941176470588
+Validation loss:0.6931078854729148	accuracy:0.4852941176470588
+Validation loss:0.6931076610789579	accuracy:0.4852941176470588
+Validation loss:0.6931068757001091	accuracy:0.4852941176470588
+Validation loss:0.6931075488819796	accuracy:0.4852941176470588
+Validation loss:0.6931072683895335	accuracy:0.4852941176470588
+Validation loss:0.6931072683895335	accuracy:0.4852941176470588
+Validation loss:0.6930963852826286	accuracy:0.47058823529411764
+Validation loss:0.6930959364947151	accuracy:0.47058823529411764
+Validation loss:0.6930954877068015	accuracy:0.47058823529411764
+Validation loss:0.6930998072904699	accuracy:0.47058823529411764
+Validation loss:0.693095375509823	accuracy:0.4852941176470588
+Validation loss:0.6930850533878102	accuracy:0.4852941176470588
+Model saved at epoch318
+Validation loss:0.6930816874784582	accuracy:0.5
+Model saved at epoch319
+Validation loss:0.6930786581600413	accuracy:0.5147058823529411
+Model saved at epoch320
+Validation loss:0.6930727678186753	accuracy:0.5588235294117647
+Model saved at epoch321
+Validation loss:0.6930738897884593	accuracy:0.5588235294117647
+Validation loss:0.6930669896742877	accuracy:0.5882352941176471
+Model saved at epoch323
+Validation loss:0.6930637920604032	accuracy:0.5588235294117647
+Model saved at epoch324
+Validation loss:0.6930631749770221	accuracy:0.5588235294117647
+Model saved at epoch325
+Validation loss:0.6930649701286765	accuracy:0.5588235294117647
+Validation loss:0.6930641286513385	accuracy:0.5588235294117647
+Validation loss:0.6930636798634249	accuracy:0.5735294117647058
+Validation loss:0.6930591919842888	accuracy:0.5588235294117647
+Model saved at epoch329
+Validation loss:0.6930552650900448	accuracy:0.5735294117647058
+Model saved at epoch330
+Validation loss:0.6930549845975988	accuracy:0.5588235294117647
+Model saved at epoch331
+Validation loss:0.6930521796731388	accuracy:0.5735294117647058
+Model saved at epoch332
+Validation loss:0.6930524040670956	accuracy:0.5735294117647058
+Validation loss:0.6930545358096852	accuracy:0.5882352941176471
+Validation loss:0.6930631188785329	accuracy:0.5441176470588235
+Validation loss:0.6930635115679573	accuracy:0.5735294117647058
+Validation loss:0.6930672701667336	accuracy:0.5588235294117647
+Validation loss:0.6930621652042165	accuracy:0.5441176470588235
+Validation loss:0.693060089560116	accuracy:0.5
+Validation loss:0.6930532455444336	accuracy:0.5
+Validation loss:0.6930572285371668	accuracy:0.5
+Validation loss:0.6930549284991097	accuracy:0.5
+Validation loss:0.6930503845214844	accuracy:0.5147058823529411
+Model saved at epoch343
+Validation loss:0.6930514503927792	accuracy:0.5147058823529411
+Validation loss:0.6930513381958008	accuracy:0.5147058823529411
+Validation loss:0.6930506650139304	accuracy:0.4852941176470588
+Validation loss:0.6930549284991097	accuracy:0.4852941176470588
+Validation loss:0.6930592480827781	accuracy:0.4852941176470588
+Validation loss:0.6930589114918428	accuracy:0.5
+Validation loss:0.693056443158318	accuracy:0.5147058823529411
+Validation loss:0.6930512259988224	accuracy:0.5294117647058824
+Validation loss:0.6930504406199736	accuracy:0.5147058823529411
+Validation loss:0.6930498235365924	accuracy:0.5294117647058824
+Model saved at epoch353
+Validation loss:0.693049430847168	accuracy:0.5441176470588235
+Model saved at epoch354
+Validation loss:0.6930505528169519	accuracy:0.5294117647058824
+Validation loss:0.6930505528169519	accuracy:0.5294117647058824
+Validation loss:0.6930526845595416	accuracy:0.5147058823529411
+Validation loss:0.6930573968326345	accuracy:0.5
+Validation loss:0.6930615481208352	accuracy:0.5147058823529411
+Validation loss:0.6930619969087488	accuracy:0.5294117647058824
+Validation loss:0.6930613798253676	accuracy:0.5294117647058824
+Validation loss:0.6930538626278148	accuracy:0.5147058823529411
+Validation loss:0.6930442136876723	accuracy:0.5147058823529411
+Model saved at epoch363
+Validation loss:0.6930365281946519	accuracy:0.5
+Model saved at epoch364
+Validation loss:0.6930311988381779	accuracy:0.4852941176470588
+Model saved at epoch365
+Validation loss:0.6930272719439339	accuracy:0.5294117647058824
+Model saved at epoch366
+Validation loss:0.6930268231560203	accuracy:0.5294117647058824
+Model saved at epoch367
+Validation loss:0.6930333866792566	accuracy:0.4852941176470588
+Validation loss:0.6930320964140051	accuracy:0.5
+Validation loss:0.6930337232701919	accuracy:0.5
+Validation loss:0.6930344525505515	accuracy:0.4852941176470588
+Validation loss:0.6930295158835018	accuracy:0.5
+Validation loss:0.6930275524363798	accuracy:0.5147058823529411
+Validation loss:0.6930156034581801	accuracy:0.5147058823529411
+Model saved at epoch374
+Validation loss:0.6930151546702665	accuracy:0.5
+Model saved at epoch375
+Validation loss:0.6930126863367417	accuracy:0.5147058823529411
+Model saved at epoch376
+Validation loss:0.6930131351246553	accuracy:0.5147058823529411
+Validation loss:0.6930089277379653	accuracy:0.5147058823529411
+Model saved at epoch378
+Validation loss:0.6930034861845129	accuracy:0.5147058823529411
+Model saved at epoch379
+Validation loss:0.6929983812219956	accuracy:0.5147058823529411
+Model saved at epoch380
+Validation loss:0.6929935006534352	accuracy:0.5
+Model saved at epoch381
+Validation loss:0.6929933884564567	accuracy:0.5
+Model saved at epoch382
+Validation loss:0.6929939494413488	accuracy:0.5147058823529411
+Validation loss:0.6929913128123564	accuracy:0.5147058823529411
+Model saved at epoch384
+Validation loss:0.6929862078498391	accuracy:0.5147058823529411
+Model saved at epoch385
+Validation loss:0.6929822809555951	accuracy:0.5147058823529411
+Model saved at epoch386
+Validation loss:0.6929791394402	accuracy:0.5147058823529411
+Model saved at epoch387
+Validation loss:0.6929822809555951	accuracy:0.5147058823529411
+Validation loss:0.6929799248190487	accuracy:0.5147058823529411
+Validation loss:0.6929712295532227	accuracy:0.5147058823529411
+Model saved at epoch390
+Validation loss:0.6929709490607766	accuracy:0.5147058823529411
+Model saved at epoch391
+Validation loss:0.6929692661061007	accuracy:0.5147058823529411
+Model saved at epoch392
+Validation loss:0.6929754369399127	accuracy:0.5147058823529411
+Validation loss:0.6929832346299115	accuracy:0.5147058823529411
+Validation loss:0.692989237168256	accuracy:0.5147058823529411
+Validation loss:0.6929913689108456	accuracy:0.5147058823529411
+Validation loss:0.6929872176226448	accuracy:0.5147058823529411
+Validation loss:0.6929882273954504	accuracy:0.5147058823529411
+Validation loss:0.6929906957289752	accuracy:0.5147058823529411
+Validation loss:0.6929964738733628	accuracy:0.5147058823529411
+Validation loss:0.6930006812600529	accuracy:0.5147058823529411
+Validation loss:0.6930036544799805	accuracy:0.5147058823529411
+Validation loss:0.6930077496696921	accuracy:0.5294117647058824
+Validation loss:0.6930124619427849	accuracy:0.5147058823529411
+Validation loss:0.6930166693294749	accuracy:0.5294117647058824
+Validation loss:0.6930201474358054	accuracy:0.5294117647058824
+Validation loss:0.693023681640625	accuracy:0.5294117647058824
+Validation loss:0.6930227279663086	accuracy:0.5294117647058824
+Validation loss:0.693026767057531	accuracy:0.5147058823529411
+Validation loss:0.6930310866411995	accuracy:0.5147058823529411
+Validation loss:0.6930309183457318	accuracy:0.5147058823529411
+Validation loss:0.693031535429113	accuracy:0.5147058823529411
+Validation loss:0.6930322647094727	accuracy:0.5147058823529411
+Validation loss:0.693028169519761	accuracy:0.5294117647058824
+Validation loss:0.6930244670194738	accuracy:0.5294117647058824
+Validation loss:0.6930142570944393	accuracy:0.5294117647058824
+Validation loss:0.6930097692153033	accuracy:0.5147058823529411
+Validation loss:0.6930148741778206	accuracy:0.5147058823529411
+Validation loss:0.6930200352388269	accuracy:0.5294117647058824
+Validation loss:0.6930295158835018	accuracy:0.5294117647058824
+Validation loss:0.6930331622852999	accuracy:0.5147058823529411
+Validation loss:0.6930354062248679	accuracy:0.5147058823529411
+Validation loss:0.6930355184218463	accuracy:0.5147058823529411
+Validation loss:0.6930400623994715	accuracy:0.5147058823529411
+Validation loss:0.6930412965662339	accuracy:0.5147058823529411
+Validation loss:0.6930357989142922	accuracy:0.5147058823529411
+Validation loss:0.6930305817547966	accuracy:0.5294117647058824
+Validation loss:0.6930251402013442	accuracy:0.5294117647058824
+Validation loss:0.6930185205796185	accuracy:0.5147058823529411
+Validation loss:0.6930161083445829	accuracy:0.5147058823529411
+Validation loss:0.6930210450116325	accuracy:0.5294117647058824
+Validation loss:0.6930224474738625	accuracy:0.5294117647058824
+Validation loss:0.6930217742919922	accuracy:0.5294117647058824
+Validation loss:0.6930186888750862	accuracy:0.5294117647058824
+Validation loss:0.6930178473977482	accuracy:0.5294117647058824
+Validation loss:0.6930223913753734	accuracy:0.5147058823529411
+Validation loss:0.6930180156932157	accuracy:0.5294117647058824
+Validation loss:0.6930148180793313	accuracy:0.5294117647058824
+Validation loss:0.6930130790261662	accuracy:0.5294117647058824
+Validation loss:0.6930115643669578	accuracy:0.5294117647058824
+Validation loss:0.6930083667530733	accuracy:0.5294117647058824
+Validation loss:0.6930079740636489	accuracy:0.5147058823529411
+Validation loss:0.6930067398968864	accuracy:0.5147058823529411
+Independent Test Accuracy:0.4864864864864865
+Working on split: 10
+Processing...
+Done!
+BOTDS(686)
+38
+Hyperparameter Tuning:
+[nhid:8, batch_size:16, lr:0.0001]	Validation loss:0.6916236877441406	accuracy:0.5294117647058824
+[nhid:8, batch_size:16, lr:0.0005]	Validation loss:0.6935838811537799	accuracy:0.47058823529411764
+[nhid:8, batch_size:16, lr:0.001]	Validation loss:0.6955957973704618	accuracy:0.47058823529411764
+[nhid:8, batch_size:32, lr:0.0001]	Validation loss:0.6958863314460305	accuracy:0.5294117647058824
+[nhid:8, batch_size:32, lr:0.0005]	Validation loss:0.6998914269840016	accuracy:0.4852941176470588
+[nhid:8, batch_size:32, lr:0.001]	Validation loss:0.6956089244169348	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0001]	Validation loss:0.6957942738252527	accuracy:0.47058823529411764
+[nhid:16, batch_size:16, lr:0.0005]	Validation loss:0.6972175485947553	accuracy:0.5147058823529411
+[nhid:16, batch_size:16, lr:0.001]	Validation loss:0.6941965888528263	accuracy:0.45588235294117646
+[nhid:16, batch_size:32, lr:0.0001]	Validation loss:0.6976798001457664	accuracy:0.4117647058823529
+[nhid:16, batch_size:32, lr:0.0005]	Validation loss:0.6941722421085134	accuracy:0.47058823529411764
+[nhid:16, batch_size:32, lr:0.001]	Validation loss:0.6941265779383042	accuracy:0.47058823529411764
+[nhid:32, batch_size:16, lr:0.0001]	Validation loss:0.6947723837459788	accuracy:0.4117647058823529
+[nhid:32, batch_size:16, lr:0.0005]	Validation loss:0.6959639156565947	accuracy:0.4852941176470588
+[nhid:32, batch_size:16, lr:0.001]	Validation loss:0.6950453028959387	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0001]	Validation loss:0.6949501598582548	accuracy:0.47058823529411764
+[nhid:32, batch_size:32, lr:0.0005]	Validation loss:0.7064974167767692	accuracy:0.39705882352941174
+[nhid:32, batch_size:32, lr:0.001]	Validation loss:0.6948549046235926	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.0001]	Validation loss:0.6967456481036018	accuracy:0.4411764705882353
+[nhid:64, batch_size:16, lr:0.0005]	Validation loss:0.6977651259478401	accuracy:0.45588235294117646
+[nhid:64, batch_size:16, lr:0.001]	Validation loss:0.701969819910386	accuracy:0.39705882352941174
+[nhid:64, batch_size:32, lr:0.0001]	Validation loss:0.6987267662497127	accuracy:0.45588235294117646
+[nhid:64, batch_size:32, lr:0.0005]	Validation loss:0.7003194023581112	accuracy:0.39705882352941174
+[nhid:64, batch_size:32, lr:0.001]	Validation loss:0.6993542839499081	accuracy:0.38235294117647056
+[nhid:128, batch_size:16, lr:0.0001]	Validation loss:0.6983808629653033	accuracy:0.45588235294117646
+[nhid:128, batch_size:16, lr:0.0005]	Validation loss:0.6940592597512638	accuracy:0.5294117647058824
+[nhid:128, batch_size:16, lr:0.001]	Validation loss:0.6979203504674575	accuracy:0.4117647058823529
+[nhid:128, batch_size:32, lr:0.0001]	Validation loss:0.6988226385677562	accuracy:0.4411764705882353
+[nhid:128, batch_size:32, lr:0.0005]	Validation loss:0.7025980107924518	accuracy:0.39705882352941174
+[nhid:128, batch_size:32, lr:0.001]	Validation loss:0.6944659737979665	accuracy:0.47058823529411764
+Best hyperparameters: [nhid: 8, batch_size:16, lr:0.0001])
+Training Starts.
+Validation loss:0.7606530470006606	accuracy:0.47058823529411764
+Model saved at epoch0
+Validation loss:0.759574665742762	accuracy:0.47058823529411764
+Model saved at epoch1
+Validation loss:0.7583788703469669	accuracy:0.47058823529411764
+Model saved at epoch2
+Validation loss:0.7573881149291992	accuracy:0.47058823529411764
+Model saved at epoch3
+Validation loss:0.7564268673167509	accuracy:0.47058823529411764
+Model saved at epoch4
+Validation loss:0.7554742027731502	accuracy:0.47058823529411764
+Model saved at epoch5
+Validation loss:0.754311673781451	accuracy:0.47058823529411764
+Model saved at epoch6
+Validation loss:0.7535692663753734	accuracy:0.47058823529411764
+Model saved at epoch7
+Validation loss:0.7526245678172392	accuracy:0.47058823529411764
+Model saved at epoch8
+Validation loss:0.7519045998068417	accuracy:0.47058823529411764
+Model saved at epoch9
+Validation loss:0.751028902390424	accuracy:0.47058823529411764
+Model saved at epoch10
+Validation loss:0.7502687117632698	accuracy:0.47058823529411764
+Model saved at epoch11
+Validation loss:0.7495340459487018	accuracy:0.47058823529411764
+Model saved at epoch12
+Validation loss:0.7491829816032859	accuracy:0.47058823529411764
+Model saved at epoch13
+Validation loss:0.7486029793234432	accuracy:0.47058823529411764
+Model saved at epoch14
+Validation loss:0.7482132070204791	accuracy:0.47058823529411764
+Model saved at epoch15
+Validation loss:0.7478144028607536	accuracy:0.47058823529411764
+Model saved at epoch16
+Validation loss:0.7473794712739832	accuracy:0.47058823529411764
+Model saved at epoch17
+Validation loss:0.746954413021312	accuracy:0.47058823529411764
+Model saved at epoch18
+Validation loss:0.7465996461756089	accuracy:0.47058823529411764
+Model saved at epoch19
+Validation loss:0.7462880190681008	accuracy:0.47058823529411764
+Model saved at epoch20
+Validation loss:0.7459349351770738	accuracy:0.47058823529411764
+Model saved at epoch21
+Validation loss:0.7455515020033893	accuracy:0.47058823529411764
+Model saved at epoch22
+Validation loss:0.7457792618695427	accuracy:0.47058823529411764
+Validation loss:0.7453967823701746	accuracy:0.47058823529411764
+Model saved at epoch24
+Validation loss:0.7451134849997127	accuracy:0.47058823529411764
+Model saved at epoch25
+Validation loss:0.7448676053215476	accuracy:0.47058823529411764
+Model saved at epoch26
+Validation loss:0.7446406869327321	accuracy:0.47058823529411764
+Model saved at epoch27
+Validation loss:0.7443462820614085	accuracy:0.47058823529411764
+Model saved at epoch28
+Validation loss:0.7440514284021714	accuracy:0.47058823529411764
+Model saved at epoch29
+Validation loss:0.7437787897446576	accuracy:0.47058823529411764
+Model saved at epoch30
+Validation loss:0.7433271969065947	accuracy:0.47058823529411764
+Model saved at epoch31
+Validation loss:0.7430723975686466	accuracy:0.47058823529411764
+Model saved at epoch32
+Validation loss:0.7428107542150161	accuracy:0.47058823529411764
+Model saved at epoch33
+Validation loss:0.7425213982077206	accuracy:0.47058823529411764
+Model saved at epoch34
+Validation loss:0.7422310324276195	accuracy:0.47058823529411764
+Model saved at epoch35
+Validation loss:0.7419238371007583	accuracy:0.47058823529411764
+Model saved at epoch36
+Validation loss:0.7416634840123794	accuracy:0.47058823529411764
+Model saved at epoch37
+Validation loss:0.7414665222167969	accuracy:0.47058823529411764
+Model saved at epoch38
+Validation loss:0.741274216595818	accuracy:0.47058823529411764
+Model saved at epoch39
+Validation loss:0.7413515764124253	accuracy:0.47058823529411764
+Validation loss:0.7412146960987764	accuracy:0.47058823529411764
+Model saved at epoch41
+Validation loss:0.741053020252901	accuracy:0.47058823529411764
+Model saved at epoch42
+Validation loss:0.7407719668220071	accuracy:0.47058823529411764
+Model saved at epoch43
+Validation loss:0.7403877482694738	accuracy:0.47058823529411764
+Model saved at epoch44
+Validation loss:0.739969814524931	accuracy:0.47058823529411764
+Model saved at epoch45
+Validation loss:0.7392948375028723	accuracy:0.47058823529411764
+Model saved at epoch46
+Validation loss:0.7389667174395393	accuracy:0.47058823529411764
+Model saved at epoch47
+Validation loss:0.7386649636661305	accuracy:0.47058823529411764
+Model saved at epoch48
+Validation loss:0.7382868598489201	accuracy:0.47058823529411764
+Model saved at epoch49
+Validation loss:0.7376914865830365	accuracy:0.47058823529411764
+Model saved at epoch50
+Validation loss:0.7370021483477425	accuracy:0.47058823529411764
+Model saved at epoch51
+Validation loss:0.7359803143669578	accuracy:0.47058823529411764
+Model saved at epoch52
+Validation loss:0.7344149421243107	accuracy:0.47058823529411764
+Model saved at epoch53
+Validation loss:0.7332612766939051	accuracy:0.47058823529411764
+Model saved at epoch54
+Validation loss:0.7319950215956744	accuracy:0.47058823529411764
+Model saved at epoch55
+Validation loss:0.7304893381455365	accuracy:0.47058823529411764
+Model saved at epoch56
+Validation loss:0.7290113673490637	accuracy:0.47058823529411764
+Model saved at epoch57
+Validation loss:0.7272136912626379	accuracy:0.47058823529411764
+Model saved at epoch58
+Validation loss:0.7248581157011145	accuracy:0.47058823529411764
+Model saved at epoch59
+Validation loss:0.7212142944335938	accuracy:0.47058823529411764
+Model saved at epoch60
+Validation loss:0.7197535458733054	accuracy:0.47058823529411764
+Model saved at epoch61
+Validation loss:0.7187140408684226	accuracy:0.47058823529411764
+Model saved at epoch62
+Validation loss:0.7179305693682503	accuracy:0.47058823529411764
+Model saved at epoch63
+Validation loss:0.7171928742352653	accuracy:0.47058823529411764
+Model saved at epoch64
+Validation loss:0.7162621442009421	accuracy:0.47058823529411764
+Model saved at epoch65
+Validation loss:0.7155870549819049	accuracy:0.47058823529411764
+Model saved at epoch66
+Validation loss:0.7145748138427734	accuracy:0.47058823529411764
+Model saved at epoch67
+Validation loss:0.7140255535350126	accuracy:0.47058823529411764
+Model saved at epoch68
+Validation loss:0.7130218954647288	accuracy:0.47058823529411764
+Model saved at epoch69
+Validation loss:0.7124489054960363	accuracy:0.47058823529411764
+Model saved at epoch70
+Validation loss:0.7115443173576804	accuracy:0.47058823529411764
+Model saved at epoch71
+Validation loss:0.7105284859152401	accuracy:0.47058823529411764
+Model saved at epoch72
+Validation loss:0.709467887878418	accuracy:0.47058823529411764
+Model saved at epoch73
+Validation loss:0.7088003158569336	accuracy:0.47058823529411764
+Model saved at epoch74
+Validation loss:0.707731190849753	accuracy:0.47058823529411764
+Model saved at epoch75
+Validation loss:0.7069091796875	accuracy:0.47058823529411764
+Model saved at epoch76
+Validation loss:0.7060806611004997	accuracy:0.47058823529411764
+Model saved at epoch77
+Validation loss:0.7057406481574563	accuracy:0.47058823529411764
+Model saved at epoch78
+Validation loss:0.705050412346335	accuracy:0.47058823529411764
+Model saved at epoch79
+Validation loss:0.7043851403629079	accuracy:0.47058823529411764
+Model saved at epoch80
+Validation loss:0.7036780750050264	accuracy:0.47058823529411764
+Model saved at epoch81
+Validation loss:0.7030122420367073	accuracy:0.47058823529411764
+Model saved at epoch82
+Validation loss:0.7026767730712891	accuracy:0.47058823529411764
+Model saved at epoch83
+Validation loss:0.7022121092852425	accuracy:0.47058823529411764
+Model saved at epoch84
+Validation loss:0.7020290038164925	accuracy:0.47058823529411764
+Model saved at epoch85
+Validation loss:0.7018382128547219	accuracy:0.47058823529411764
+Model saved at epoch86
+Validation loss:0.7012583788703469	accuracy:0.47058823529411764
+Model saved at epoch87
+Validation loss:0.7011321572696462	accuracy:0.47058823529411764
+Model saved at epoch88
+Validation loss:0.700897216796875	accuracy:0.47058823529411764
+Model saved at epoch89
+Validation loss:0.700713269850787	accuracy:0.47058823529411764
+Model saved at epoch90
+Validation loss:0.7005582697251264	accuracy:0.47058823529411764
+Model saved at epoch91
+Validation loss:0.7003643372479607	accuracy:0.47058823529411764
+Model saved at epoch92
+Validation loss:0.7000216315774357	accuracy:0.47058823529411764
+Model saved at epoch93
+Validation loss:0.6999976775225472	accuracy:0.47058823529411764
+Model saved at epoch94
+Validation loss:0.6994305778952206	accuracy:0.47058823529411764
+Model saved at epoch95
+Validation loss:0.6997100044699276	accuracy:0.47058823529411764
+Validation loss:0.6997296389411477	accuracy:0.47058823529411764
+Validation loss:0.6996654061710134	accuracy:0.47058823529411764
+Validation loss:0.6995800242704504	accuracy:0.47058823529411764
+Validation loss:0.699462610132554	accuracy:0.47058823529411764
+Validation loss:0.6992452284869026	accuracy:0.47058823529411764
+Model saved at epoch101
+Validation loss:0.6990662182078642	accuracy:0.47058823529411764
+Model saved at epoch102
+Validation loss:0.6988499585319968	accuracy:0.47058823529411764
+Model saved at epoch103
+Validation loss:0.6987323200001436	accuracy:0.47058823529411764
+Model saved at epoch104
+Validation loss:0.6985199872185203	accuracy:0.47058823529411764
+Model saved at epoch105
+Validation loss:0.6983078227323645	accuracy:0.47058823529411764
+Model saved at epoch106
+Validation loss:0.6982736587524414	accuracy:0.47058823529411764
+Model saved at epoch107
+Validation loss:0.6981287563548368	accuracy:0.47058823529411764
+Model saved at epoch108
+Validation loss:0.6981364979463465	accuracy:0.47058823529411764
+Validation loss:0.6981615178725299	accuracy:0.47058823529411764
+Validation loss:0.6973940905402688	accuracy:0.47058823529411764
+Model saved at epoch111
+Validation loss:0.6973120184505687	accuracy:0.47058823529411764
+Model saved at epoch112
+Validation loss:0.6972541809082031	accuracy:0.47058823529411764
+Model saved at epoch113
+Validation loss:0.6971046784344841	accuracy:0.47058823529411764
+Model saved at epoch114
+Validation loss:0.6969552881577435	accuracy:0.47058823529411764
+Model saved at epoch115
+Validation loss:0.6969106898588293	accuracy:0.47058823529411764
+Model saved at epoch116
+Validation loss:0.6967788023107192	accuracy:0.47058823529411764
+Model saved at epoch117
+Validation loss:0.6966009140014648	accuracy:0.47058823529411764
+Model saved at epoch118
+Validation loss:0.6969640956205481	accuracy:0.47058823529411764
+Validation loss:0.6967840194702148	accuracy:0.47058823529411764
+Validation loss:0.6964035595164579	accuracy:0.47058823529411764
+Model saved at epoch121
+Validation loss:0.6961163913502413	accuracy:0.47058823529411764
+Model saved at epoch122
+Validation loss:0.6955005421357996	accuracy:0.47058823529411764
+Model saved at epoch123
+Validation loss:0.6953681497012868	accuracy:0.47058823529411764
+Model saved at epoch124
+Validation loss:0.695227118099437	accuracy:0.47058823529411764
+Model saved at epoch125
+Validation loss:0.695156546200023	accuracy:0.47058823529411764
+Model saved at epoch126
+Validation loss:0.6951153138104607	accuracy:0.47058823529411764
+Model saved at epoch127
+Validation loss:0.6953064413631663	accuracy:0.47058823529411764
+Validation loss:0.6956039877498851	accuracy:0.47058823529411764
+Validation loss:0.6954830955056583	accuracy:0.47058823529411764
+Validation loss:0.6955267401302562	accuracy:0.47058823529411764
+Validation loss:0.6955813800587374	accuracy:0.47058823529411764
+Validation loss:0.695531452403349	accuracy:0.47058823529411764
+Validation loss:0.6955150716445025	accuracy:0.47058823529411764
+Validation loss:0.6954652561860926	accuracy:0.47058823529411764
+Validation loss:0.69543877769919	accuracy:0.47058823529411764
+Validation loss:0.6953923842486214	accuracy:0.47058823529411764
+Validation loss:0.6953559763291303	accuracy:0.47058823529411764
+Validation loss:0.6953808840583352	accuracy:0.47058823529411764
+Validation loss:0.6952988119686351	accuracy:0.47058823529411764
+Validation loss:0.6953656252692727	accuracy:0.47058823529411764
+Validation loss:0.6953275904935949	accuracy:0.47058823529411764
+Validation loss:0.6952252107508042	accuracy:0.47058823529411764
+Validation loss:0.6950669008142808	accuracy:0.47058823529411764
+Model saved at epoch144
+Validation loss:0.6949289546293371	accuracy:0.47058823529411764
+Model saved at epoch145
+Validation loss:0.6949921776266659	accuracy:0.47058823529411764
+Validation loss:0.695098035475787	accuracy:0.47058823529411764
+Validation loss:0.6952320547664866	accuracy:0.47058823529411764
+Validation loss:0.6953422882977653	accuracy:0.47058823529411764
+Validation loss:0.6953652886783376	accuracy:0.47058823529411764
+Validation loss:0.6953374638276941	accuracy:0.47058823529411764
+Validation loss:0.6953239440917969	accuracy:0.47058823529411764
+Validation loss:0.6953656252692727	accuracy:0.47058823529411764
+Validation loss:0.6953936184153837	accuracy:0.47058823529411764
+Validation loss:0.6953675326179055	accuracy:0.47058823529411764
+Validation loss:0.6952055201810949	accuracy:0.47058823529411764
+Validation loss:0.6951149772195255	accuracy:0.47058823529411764
+Validation loss:0.6951186797198128	accuracy:0.47058823529411764
+Validation loss:0.6951528436997357	accuracy:0.47058823529411764
+Validation loss:0.6952538209802964	accuracy:0.47058823529411764
+Validation loss:0.6953397638657514	accuracy:0.47058823529411764
+Validation loss:0.6954032673555262	accuracy:0.47058823529411764
+Validation loss:0.6954267726225012	accuracy:0.47058823529411764
+Validation loss:0.6955117618336397	accuracy:0.47058823529411764
+Validation loss:0.6955350988051471	accuracy:0.47058823529411764
+Validation loss:0.6956062877879423	accuracy:0.47058823529411764
+Validation loss:0.6958237816305721	accuracy:0.47058823529411764
+Validation loss:0.6958485771627987	accuracy:0.47058823529411764
+Validation loss:0.6947494394638959	accuracy:0.47058823529411764
+Model saved at epoch169
+Validation loss:0.694734629462747	accuracy:0.47058823529411764
+Model saved at epoch170
+Validation loss:0.6948388604556813	accuracy:0.47058823529411764
+Validation loss:0.6949949264526367	accuracy:0.47058823529411764
+Validation loss:0.6951862783992991	accuracy:0.47058823529411764
+Validation loss:0.695133321425494	accuracy:0.47058823529411764
+Validation loss:0.6951468411613914	accuracy:0.47058823529411764
+Validation loss:0.6951195211971507	accuracy:0.47058823529411764
+Validation loss:0.6951166040757123	accuracy:0.47058823529411764
+Validation loss:0.6952444525325999	accuracy:0.47058823529411764
+Validation loss:0.6952569624956917	accuracy:0.47058823529411764
+Validation loss:0.6955285352819106	accuracy:0.47058823529411764
+Validation loss:0.6953570982989143	accuracy:0.47058823529411764
+Validation loss:0.6956848256728229	accuracy:0.47058823529411764
+Validation loss:0.6956516714657054	accuracy:0.47058823529411764
+Validation loss:0.6954526340260225	accuracy:0.47058823529411764
+Validation loss:0.6954411338357365	accuracy:0.47058823529411764
+Validation loss:0.6953797620885512	accuracy:0.47058823529411764
+Validation loss:0.6954036039464614	accuracy:0.47058823529411764
+Validation loss:0.6954129723941579	accuracy:0.47058823529411764
+Validation loss:0.6954694635727826	accuracy:0.47058823529411764
+Validation loss:0.6954694635727826	accuracy:0.47058823529411764
+Validation loss:0.6954269409179688	accuracy:0.47058823529411764
+Validation loss:0.6954643586102653	accuracy:0.47058823529411764
+Validation loss:0.6954643586102653	accuracy:0.47058823529411764
+Validation loss:0.6954307556152344	accuracy:0.47058823529411764
+Validation loss:0.695350310381721	accuracy:0.47058823529411764
+Validation loss:0.6952754749971277	accuracy:0.47058823529411764
+Validation loss:0.6952081007115981	accuracy:0.47058823529411764
+Validation loss:0.6951947492711684	accuracy:0.47058823529411764
+Validation loss:0.6953039730296415	accuracy:0.47058823529411764
+Validation loss:0.695439058191636	accuracy:0.47058823529411764
+Validation loss:0.6949907751644359	accuracy:0.47058823529411764
+Validation loss:0.6950128779691809	accuracy:0.47058823529411764
+Validation loss:0.6949435963350183	accuracy:0.47058823529411764
+Validation loss:0.6953997892491958	accuracy:0.47058823529411764
+Validation loss:0.695339090683881	accuracy:0.47058823529411764
+Validation loss:0.695274689618279	accuracy:0.47058823529411764
+Validation loss:0.6953415590174058	accuracy:0.47058823529411764
+Validation loss:0.6953923842486214	accuracy:0.47058823529411764
+Validation loss:0.6953599032233743	accuracy:0.47058823529411764
+Validation loss:0.6951916638542625	accuracy:0.47058823529411764
+Validation loss:0.6951171650606043	accuracy:0.47058823529411764
+Validation loss:0.6953128365909352	accuracy:0.47058823529411764
+Validation loss:0.6952978021958295	accuracy:0.47058823529411764
+Validation loss:0.6953549104578355	accuracy:0.47058823529411764
+Validation loss:0.6952233595006606	accuracy:0.47058823529411764
+Validation loss:0.6951230554019704	accuracy:0.47058823529411764
+Validation loss:0.6951490290024701	accuracy:0.47058823529411764
+Validation loss:0.6951837539672852	accuracy:0.47058823529411764
+Validation loss:0.6951582291546989	accuracy:0.47058823529411764
+Validation loss:0.6952468647676355	accuracy:0.47058823529411764
+Validation loss:0.6950986525591683	accuracy:0.47058823529411764
+Independent Test Accuracy:0.47058823529411764
