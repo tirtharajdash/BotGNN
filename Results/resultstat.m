@@ -10,7 +10,7 @@ GPC = dlmread('~/tdash/Basic_GPC/GPCoutputs/results.csv',',',1,1);
 
 
 for i = 1:5
-    %A = BotGNN_AB(:,i); B = BotGNN(:,i);
+    %A = GNN(:,i); B = BotGNN(:,i);
     %A = DRM(:,1); B = BotGNN(:,i);
     A = SVM(:,1); B = BotGNN(:,i);
 	%A = XGB(:,1); B = BotGNN(:,i);
