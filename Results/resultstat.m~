@@ -9,23 +9,19 @@ SVM = dlmread('~/tdash/Basic_SVM/SVCoutputs/results.csv',',',1,1);
 GPC = dlmread('~/tdash/Basic_GPC/GPCoutputs/results.csv',',',1,1);
 CILP = dlmread('~/tdash/CILP/MLP_MultiHL/Results/CILP.csv',',',1,1);
 CILPab = dlmread('~/tdash/CILP/MLP_MultiHL/Results/CILPab.csv',',',1,1);
-ALEPH = dlmread('~/tdash/BotGNN/Results/aleph_minacc_0.7.csv',',',1,1);
 
 for i = 1:5
-    %A = GNN(:,i); B = BotGNN(:,i);
-    %A = VEGNN(:,i); B = BotGNN(:,i);
+    A = GNN(:,i); B = BotGNN(:,i);
     %A = DRM(:,1); B = BotGNN(:,i);
     %A = CILP(:,1); B = BotGNN(:,i);
     %A = SVM(:,1); B = BotGNN(:,i);
 	%A = XGB(:,1); B = BotGNN(:,i);
-    A = ALEPH(:,1); B = BotGNN(:,i);
-    %A = round(A,5); B = round(B,5);
-    
-	gt = sum(B > A);
+    %A = round(A,4); B = round(B,4);
+      
+    gt = sum(B > A);
     lt = sum(B < A);
     eq = sum(B == A);
     [p, h] = signrank(A,B);
-    gain = (median(B ./ A)-1)*100.0;
-    fprintf('%d/%d/%d (%e)\t median gain: %d%%\n',gt,lt,eq,p,round(gain));
-    %disp([num2str(gt),'/',num2str(lt),'/',num2str(eq),' (',num2str(p),')','    [median gain:',num2str(gain),'%]']);
+    fprintf('%d/%d/%d (%e)\t median gain',gt,lt,eq,p);
+    disp([num2str(gt),'/',num2str(lt),'/',num2str(eq),' (',num2str(p),')','    [median gain:',num2str((median(B ./ A)-1)*100.0),'%]']);
 end
