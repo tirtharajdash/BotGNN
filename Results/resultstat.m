@@ -26,6 +26,6 @@ for i = 1:5
     eq = sum(B == A);
     [p, h] = signrank(A,B);
     gain = (median(B ./ A)-1)*100.0;
-    fprintf('%d/%d/%d (%e)\t median gain: %d%%\n',gt,lt,eq,p,round(gain));
+    fprintf('%d/%d/%d (%5.4f)\t median gain: %d%%\n',gt,lt,eq,p,round(gain));
     %disp([num2str(gt),'/',num2str(lt),'/',num2str(eq),' (',num2str(p),')','    [median gain:',num2str(gain),'%]']);
 end
