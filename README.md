@@ -9,18 +9,18 @@ The present uncompressed version of our processed data constitutes almost 40GB. 
 
 #### Experiments
 
-The MDIE implementation is carried out within [https://www.cs.ox.ac.uk/activities/programinduction/Aleph/aleph.html](Aleph system).
-The GNN implementations closely follow the implementations in [https://arxiv.org/abs/2010.13900](VEGNN). Also, VEGNN forms a yard-stick for comparison of BotGNNs. Therefore, the development environment is also same as what is described here in [https://github.com/tirtharajdash/VEGNN](VEGNN-GitHub).
+The MDIE implementation is carried out within [Aleph System](https://www.cs.ox.ac.uk/activities/programinduction/Aleph/aleph.html).
+The GNN implementations closely follow the implementations in [VEGNN](https://arxiv.org/abs/2010.13900). Also, VEGNN forms a yard-stick for comparison of BotGNNs.
 
-The directory structure is different here, as we conduct more experiments in this work. Therefore, for convenience, we keep each experiment separately under each dataset directory. Please refer to the directory structure [./dirstr.md](here).
+The directory structure is a bit different here. We conduct numerous experiments in this work, over 80 different datasets and with 5 different variants of GNNs. Therefore, for convenience, we keep each experiment separately under each dataset directory. Please refer to the directory structure [here](https://github.com/tirtharajdash/BotGNN/blob/main/dirstr.md).
 
 (More details on this repo will be added soon. Keep watching!!!)
 
 
 #### Updates
 
-[25 May 2021] The [http://arxiv.org/abs/2105.10709](preprint) of the article is available online via arXiv.\
-[25 May 2021] The article is submitted to [https://www.springer.com/journal/10994](MLJ).
+[25 May 2021] The [preprint](http://arxiv.org/abs/2105.10709) of the article is available online via arXiv.\
+[25 May 2021] The article is submitted to [MLJ](https://www.springer.com/journal/10994).
 
 
 #### How to cite the paper?
