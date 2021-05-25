@@ -19,7 +19,7 @@ The directory structure is different here, as we conduct more experiments in thi
 
 #### Updates
 
-[25 May 2021] The [http://arxiv.org/abs/2105.10709](preprint) of the article is available online via arXiv.
+[25 May 2021] The [http://arxiv.org/abs/2105.10709](preprint) of the article is available online via arXiv.\
 [25 May 2021] The article is submitted to [https://www.springer.com/journal/10994](MLJ).
 
 
