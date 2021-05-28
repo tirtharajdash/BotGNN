@@ -19,6 +19,7 @@ The directory structure is a bit different here. We conduct numerous experiments
 
 #### Updates
 
+[27 May 2021] Repository is made public.
 [25 May 2021] The [preprint](http://arxiv.org/abs/2105.10709) of the article is available online via arXiv.\
 [25 May 2021] The article is submitted to [MLJ](https://www.springer.com/journal/10994).
 
@@ -29,7 +30,7 @@ The directory structure is a bit different here. We conduct numerous experiments
 @article{dash2021inclusion,
 	title={Inclusion of Domain-Knowledge into GNNs using Mode-Directed Inverse Entailment}, 
 	author={Dash, Tirtharaj and Srinivasan, Ashwin and Baskar, A},
-	journal={arXiv preprint arXiv:2105.10709}
+	journal={arXiv preprint arXiv:2105.10709},
 	year={2021}
 }
 </pre>
