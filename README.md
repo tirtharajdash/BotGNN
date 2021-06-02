@@ -27,10 +27,20 @@ The directory structure is a bit different here. We conduct numerous experiments
 #### How to cite the paper?
 
 <pre>
-@article{dash2021inclusion,
-	title={Inclusion of Domain-Knowledge into GNNs using Mode-Directed Inverse Entailment}, 
-	author={Dash, Tirtharaj and Srinivasan, Ashwin and Baskar, A},
-	journal={arXiv preprint arXiv:2105.10709},
-	year={2021}
+@article{DBLP:journals/corr/abs-2105-10709,
+  author    = {Tirtharaj Dash and
+               Ashwin Srinivasan and
+               A. Baskar},
+  title     = {Inclusion of Domain-Knowledge into GNNs using Mode-Directed Inverse
+               Entailment},
+  journal   = {CoRR},
+  volume    = {abs/2105.10709},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2105.10709},
+  archivePrefix = {arXiv},
+  eprint    = {2105.10709},
+  timestamp = {Mon, 31 May 2021 16:16:57 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2105-10709.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre>
