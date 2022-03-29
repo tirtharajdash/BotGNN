@@ -22,25 +22,27 @@ The directory structure is a bit different here. We conduct numerous experiments
 [27 May 2021] Repository is made public.\
 [25 May 2021] The [preprint](http://arxiv.org/abs/2105.10709) of the article is available online via arXiv.\
 [25 May 2021] The article is submitted to [MLJ](https://www.springer.com/journal/10994).
+[28 Sep 2021] The article got accepted at MLJ.
+[18 Nov 2021] The article is now [published](https://doi.org/10.1007/s10994-021-06090-8).
 
 
 #### How to cite the paper?
 
 <pre>
-@article{DBLP:journals/corr/abs-2105-10709,
-  author    = {Tirtharaj Dash and
-               Ashwin Srinivasan and
-               A. Baskar},
-  title     = {Inclusion of Domain-Knowledge into GNNs using Mode-Directed Inverse
-               Entailment},
-  journal   = {CoRR},
-  volume    = {abs/2105.10709},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2105.10709},
-  archivePrefix = {arXiv},
-  eprint    = {2105.10709},
-  timestamp = {Mon, 31 May 2021 16:16:57 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2105-10709.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@article{dash2021inclusion,
+	author="Dash, Tirtharaj
+	and Srinivasan, Ashwin
+	and Baskar, A.",
+	title="Inclusion of domain-knowledge into GNNs using mode-directed inverse entailment",
+	journal="Machine Learning",
+	year="2022",
+	month="Feb",
+	day="01",
+	volume="111",
+	number="2",
+	pages="575--623",
+	issn="1573-0565",
+	doi="10.1007/s10994-021-06090-8",
+	url="https://doi.org/10.1007/s10994-021-06090-8"
 }
 </pre>
