@@ -21,8 +21,8 @@ The directory structure is a bit different here. We conduct numerous experiments
 
 [27 May 2021] Repository is made public.\
 [25 May 2021] The [preprint](http://arxiv.org/abs/2105.10709) of the article is available online via arXiv.\
-[25 May 2021] The article is submitted to [MLJ](https://www.springer.com/journal/10994).
-[28 Sep 2021] The article got accepted at MLJ.
+[25 May 2021] The article is submitted to [MLJ](https://www.springer.com/journal/10994).\
+[28 Sep 2021] The article got accepted at MLJ.\
 [18 Nov 2021] The article is now [published](https://doi.org/10.1007/s10994-021-06090-8).
 
 
