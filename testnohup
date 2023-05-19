@@ -1,0 +1,320 @@
+Working on: gi50_screen_786_0
+0.702471
+Processing...
+Done!
+BOTDS(3504)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.581201940548284	accuracy:0.7034220532319392
+1052
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[328 147]
+ [165 412]]
+Precision: 0.7370304114490162
+Recall: 0.7140381282495667
+F1-score: 0.7253521126760564
+Accuracy: 0.7034220532319392
+Working on: gi50_screen_A498
+0.717433
+Processing...
+Done!
+BOTDS(3478)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.5809104328411292	accuracy:0.7174329501915708
+1044
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[314 183]
+ [112 435]]
+Precision: 0.7038834951456311
+Recall: 0.7952468007312614
+F1-score: 0.7467811158798283
+Accuracy: 0.7174329501915708
+Working on: gi50_screen_A549_ATCC
+0.667857
+Processing...
+Done!
+BOTDS(3732)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.6162416850349732	accuracy:0.6678571428571428
+1120
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[295 258]
+ [114 453]]
+Precision: 0.6371308016877637
+Recall: 0.798941798941799
+F1-score: 0.7089201877934272
+Accuracy: 0.6678571428571428
+Working on: gi50_screen_ACHN
+0.702550
+Processing...
+Done!
+BOTDS(3529)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.5860599761475247	accuracy:0.7034938621340887
+1059
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[324 193]
+ [123 419]]
+Precision: 0.684640522875817
+Recall: 0.7730627306273062
+F1-score: 0.7261698440207971
+Accuracy: 0.7016052880075543
+Working on: gi50_screen_BT_549
+0.678271
+Processing...
+Done!
+BOTDS(2776)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.6731560388389899	accuracy:0.6782713085234093
+833
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[271 129]
+ [139 294]]
+Precision: 0.6950354609929078
+Recall: 0.6789838337182448
+F1-score: 0.6869158878504673
+Accuracy: 0.6782713085234093
+Working on: gi50_screen_CAKI_1
+0.683426
+Processing...
+Done!
+BOTDS(3578)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.6263771700903468	accuracy:0.6834264432029795
+1074
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[245 252]
+ [ 88 489]]
+Precision: 0.659919028340081
+Recall: 0.8474870017331022
+F1-score: 0.7420333839150228
+Accuracy: 0.6834264432029795
+Working on: gi50_screen_CCRF_CEM
+0.706897
+Processing...
+Done!
+BOTDS(3478)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.581209243086106	accuracy:0.7078544061302682
+1044
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[204 179]
+ [126 535]]
+Precision: 0.7492997198879552
+Recall: 0.8093797276853253
+F1-score: 0.7781818181818182
+Accuracy: 0.7078544061302682
+Working on: gi50_screen_COLO_205
+0.688015
+Processing...
+Done!
+BOTDS(3643)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.6151667657731764	accuracy:0.6880146386093321
+1093
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[328 154]
+ [187 424]]
+Precision: 0.7335640138408305
+Recall: 0.6939443535188216
+F1-score: 0.7132043734230445
+Accuracy: 0.6880146386093321
+Working on: gi50_screen_DLD_1
+0.691257
+Processing...
+Done!
+BOTDS(1220)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.592429717951785	accuracy:0.6912568306010929
+366
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[  0 113]
+ [  0 253]]
+Precision: 0.6912568306010929
+Recall: 1.0
+F1-score: 0.8174474959612278
+Accuracy: 0.6912568306010929
+Working on: gi50_screen_DMS_114
+0.742627
+Processing...
+Done!
+BOTDS(1241)
+128
+Net(
+  (conv1): SAGEConv(128, 128)
+  (pool1): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv2): SAGEConv(128, 128)
+  (pool2): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (conv3): SAGEConv(128, 128)
+  (pool3): SAGPool(
+    (score_layer): GCNConv(128, 1)
+  )
+  (lin1): Linear(in_features=256, out_features=128, bias=True)
+  (lin2): Linear(in_features=128, out_features=64, bias=True)
+  (lin3): Linear(in_features=64, out_features=2, bias=True)
+)
+Test:: loss:0.5295673747005156	accuracy:0.7426273458445041
+373
+Confusion Matrix (Rows: True, Cols: Predicted):
+[[ 14  77]
+ [ 19 263]]
+Precision: 0.7735294117647059
+Recall: 0.9326241134751773
+F1-score: 0.8456591639871383
+Accuracy: 0.7426273458445041

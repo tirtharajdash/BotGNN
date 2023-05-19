@@ -13,14 +13,15 @@ ALEPH = dlmread('~/tdash/BotGNN/Results/aleph_minacc_0.7.csv',',',1,1);
 
 for i = 1:5
     %A = GNN(:,i); B = BotGNN(:,i);
+    %A = BotGNN_AB(:,i); B = BotGNN(:,i);
     %A = VEGNN(:,i); B = BotGNN(:,i);
-    A = VEGNN(:,i); B = BotGNN_AB(:,i);
+    %A = VEGNN(:,i); B = BotGNN_AB(:,i);
     %A = DRM(:,1); B = BotGNN(:,i);
-    %A = CILP(:,1); B = BotGNN(:,i);
+    A = CILP(:,1); B = BotGNN(:,i);
     %A = SVM(:,1); B = BotGNN(:,i);
 	%A = XGB(:,1); B = BotGNN(:,i);
     %A = ALEPH(:,1); B = BotGNN(:,i);
-    %A = round(A,5); B = round(B,5);
+    A = round(A,5);% B = round(B,5);
     
 	gt = sum(B > A);
     lt = sum(B < A);

@@ -40,7 +40,7 @@ print(args.num_features)
 
 
 #load the test split
-test_ids = np.loadtxt('./data/BOTDS/train_split', dtype=int) - 1
+test_ids = np.loadtxt('./data/BOTDS/test_split', dtype=int) - 1
 test_ids = test_ids.tolist()
 test_set = Subset(dataset,test_ids)
 
