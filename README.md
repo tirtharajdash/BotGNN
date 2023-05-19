@@ -55,14 +55,14 @@ To cite data, if you use them:
 
 <pre>
 @article{Dash2023BotGNNdata,
-  title={NCI Datasets (n=73) for BotGNNs},
-  html={https://doi.org/10.17605/OSF.IO/HNZ5R},
-  DOI={10.17605/OSF.IO/HNZ5R},
-  journal={Open Science Framework},
-  publisher={OSF},
-  author={Dash, Tirtharaj},
-  year={2023},
-  month={May},
-  abbr={OSF}
+	title={NCI Datasets (n=73) for BotGNNs},
+	html={https://doi.org/10.17605/OSF.IO/HNZ5R},
+	DOI={10.17605/OSF.IO/HNZ5R},
+	journal={Open Science Framework},
+	publisher={OSF},
+	author={Dash, Tirtharaj},
+	year={2023},
+	month={May},
+	abbr={OSF}
 }
 </pre>
